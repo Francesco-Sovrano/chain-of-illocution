@@ -1,0 +1,29 @@
+{
+    "username": "5e5d66f2101bf703d65326bc",
+    "How would you rate your knowledge of <b>Python</b>?": 2,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How do I make a delay in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 296
+        }
+    ]
+}

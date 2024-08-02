@@ -1,0 +1,117 @@
+{
+    "username": "668e8e889a0361f0aa35ad5d",
+    "How would you rate your knowledge of <b>Python</b>?": 5,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "Does Java support default parameter values?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 159
+        },
+        {
+            "question": "Converting array to list in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG+CoI": 9,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 94
+        },
+        {
+            "question": "How to directly initialize a HashMap (in a literal way)?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 7,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 142
+        },
+        {
+            "question": "How do I merge two dictionaries in a single expression in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 8,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG+CoI": 6,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 29
+        },
+        {
+            "question": "What does the \"yield\" keyword do in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 487
+        }
+    ]
+}

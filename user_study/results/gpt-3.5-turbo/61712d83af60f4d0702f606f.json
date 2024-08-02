@@ -1,0 +1,140 @@
+{
+    "username": "61712d83af60f4d0702f606f",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "How do I convert a String to an int in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 134
+        },
+        {
+            "question": "How do I declare and initialize an array in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 107
+        },
+        {
+            "question": "How do I split a string in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 126
+        },
+        {
+            "question": "Does Python have a string 'contains' substring method?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 55
+        },
+        {
+            "question": "Check if a given key already exists in a dictionary",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 60
+        },
+        {
+            "question": "How to find the index for a given item in a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 82
+        }
+    ],
+    "qualitative_feedback": "I prefer explanations and solutions that are straight to the point; if I wanted caveats and specific cases i would say so."
+}

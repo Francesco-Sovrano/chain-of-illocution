@@ -1,0 +1,140 @@
+{
+    "username": "6660cfa44318eabced77652d",
+    "How would you rate your knowledge of <b>Pharo</b>?": 5,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "Singleton: How should it be used",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 7,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 70
+        },
+        {
+            "question": "How to study design patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 10,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 6,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 15
+        },
+        {
+            "question": "When should we use Observer and Observable?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 7,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 32
+        },
+        {
+            "question": "How do we write if elseif elseif in pharo?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 8,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 7,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 17
+        },
+        {
+            "question": "Usage of self subclassResponsibility",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 10,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 21
+        },
+        {
+            "question": "Syntax for class and instance variables and methods in Pharo 4.0",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 10,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 18
+        }
+    ],
+    "qualitative_feedback": "The questionnaire was very constructive"
+}

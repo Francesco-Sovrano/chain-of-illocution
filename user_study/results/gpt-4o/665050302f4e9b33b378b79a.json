@@ -1,0 +1,140 @@
+{
+    "username": "665050302f4e9b33b378b79a",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "Difference between static class and singleton pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 244
+        },
+        {
+            "question": "What are drawbacks or disadvantages of singleton pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG+CoI": 5,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG+CoI": 5,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG+CoI": 5,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 139
+        },
+        {
+            "question": "Is there a simple, elegant way to define singletons?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG+CoI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG+CoI": 8,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG+CoI": 8,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 108
+        },
+        {
+            "question": "How to print an integer to transcript",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 5,
+                    "RAG+CoI": 6,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG+CoI": 6,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "GenAI": 5,
+                    "RAG+CoI": 6,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 105
+        },
+        {
+            "question": "Regex: Matching all words in a phrase",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG+CoI": 8,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG+CoI": 8,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG+CoI": 8,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 81
+        },
+        {
+            "question": "What is the difference between self and yourself in Smalltalk?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG+CoI": 8,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG+CoI": 7,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG+CoI": 7,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 82
+        }
+    ],
+    "qualitative_feedback": ""
+}

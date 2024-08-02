@@ -1,0 +1,140 @@
+{
+    "username": "6695236db76ec1d3e7b25a08",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "How to initialize List<String> object in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 8,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 195
+        },
+        {
+            "question": "Java - Convert integer to string",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 101
+        },
+        {
+            "question": "How to check if a String is numeric in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 6,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 126
+        },
+        {
+            "question": "Find a value in a list",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 6,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 8,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 168
+        },
+        {
+            "question": "What is the difference between Python's list methods append and extend?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 95
+        },
+        {
+            "question": "How do I get the last element of a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 10,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 84
+        }
+    ],
+    "qualitative_feedback": "Sometimes the explanations had too many unnecessary words. Although it might be useful for beginners, for professionals it'll just waste time. I'd say necessary words should be 80% of the words used, meanwhile the rest should be code/math"
+}

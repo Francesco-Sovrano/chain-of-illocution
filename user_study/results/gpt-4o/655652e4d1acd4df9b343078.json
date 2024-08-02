@@ -1,0 +1,140 @@
+{
+    "username": "655652e4d1acd4df9b343078",
+    "How would you rate your knowledge of <b>Pharo</b>?": 4,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "When would you use the Builder Pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 9,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 9,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 201
+        },
+        {
+            "question": "What is a wrapper class?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "RAG": 9,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "RAG": 9,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "RAG": 9,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 59
+        },
+        {
+            "question": "What are static factory methods?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 30
+        },
+        {
+            "question": "Pharo method with multiple arguments",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 7,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 7,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 41
+        },
+        {
+            "question": "making a constructor in Pharo or Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 7,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 7,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 31
+        },
+        {
+            "question": "SmallTalk - Printing contents of an OrderedCollection object using Transcript",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "RAG": 7,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "RAG": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 30
+        }
+    ],
+    "qualitative_feedback": "Some of theme were too short and not enought consice."
+}

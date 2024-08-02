@@ -1,0 +1,140 @@
+{
+    "username": "663632a404b8252b171e1110",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "How do I make a delay in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "GenAI": 6,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 7,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 7,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 317
+        },
+        {
+            "question": "How to round a number to n decimal places in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 10,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 129
+        },
+        {
+            "question": "&& (AND) and || (OR) in IF statements",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 76
+        },
+        {
+            "question": "How do I create a directory, and any missing parent directories?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 141
+        },
+        {
+            "question": "How to copy files",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 123
+        },
+        {
+            "question": "How can I delete a file or folder in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 82
+        }
+    ],
+    "qualitative_feedback": "The explanations provided are clear and practical."
+}

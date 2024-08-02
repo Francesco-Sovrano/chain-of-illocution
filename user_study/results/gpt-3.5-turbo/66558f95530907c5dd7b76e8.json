@@ -1,0 +1,140 @@
+{
+    "username": "66558f95530907c5dd7b76e8",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "What is dependency injection?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 3,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 4,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 4,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 240
+        },
+        {
+            "question": "How do you implement the Singleton design pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 7,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 8,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 8,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 143
+        },
+        {
+            "question": "What is Inversion of Control?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 150
+        },
+        {
+            "question": "Squeak or Pharo for the beginning Smalltalker?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 69
+        },
+        {
+            "question": "Smalltalk - Is it possible to add a string to a String instance via a method?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 7,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 8,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 51
+        },
+        {
+            "question": "Check if an object is an instance of a given class or of a subclass of it",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 7,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 8,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 6,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 63
+        }
+    ],
+    "qualitative_feedback": "I would say that the best explanation is the one in which there is a short explanation of the topic, then goes into the details of what exactly it is, in points or paragraph breaks, which makes it readable. If the question requires help with codes, give the modified code or point out the lines where it needs correction. Also, at last, give an example in which the logic of the code or the question is perfectly clear. I think this is the best way to go about giving good explanations and answers. "
+}

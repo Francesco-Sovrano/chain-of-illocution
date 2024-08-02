@@ -1,0 +1,140 @@
+{
+    "username": "65269e7cf9e81cf7bda6e669",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Eliminating `switch` statements",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 4
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 8,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 7,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 179
+        },
+        {
+            "question": "Is there a typical state machine implementation pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 3,
+                    "GenAI": 7,
+                    "RAG": 3
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 7,
+                    "RAG": 4
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 7,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 82
+        },
+        {
+            "question": "What does a diamond sign signify in UML class diagrams?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 5,
+                    "GenAI": 7,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 8,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 5,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 29
+        },
+        {
+            "question": "If my Pharo image goes into an infinite loop, how do I break out of the loop?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 5,
+                    "GenAI": 7,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 19
+        },
+        {
+            "question": "How can getter/setter code be generated automatically for a class in Pharo or Squeak?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 4,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 7,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 7,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 21
+        },
+        {
+            "question": "creation of a class in Pharo Smalltalk?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 5,
+                    "RAG": 4
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 7,
+                    "RAG": 4
+                },
+                "Correctness": {
+                    "RAG+CoI": 6,
+                    "GenAI": 8,
+                    "RAG": 3
+                }
+            },
+            "elapsed_seconds": 26
+        }
+    ],
+    "qualitative_feedback": ""
+}

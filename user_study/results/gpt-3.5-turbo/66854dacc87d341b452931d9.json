@@ -1,0 +1,140 @@
+{
+    "username": "66854dacc87d341b452931d9",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Difference between static class and singleton pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 240
+        },
+        {
+            "question": "What are drawbacks or disadvantages of singleton pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 6,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 6,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 6,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 127
+        },
+        {
+            "question": "Is there a simple, elegant way to define singletons?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 6,
+                    "GenAI": 7,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "RAG": 6,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 7,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 85
+        },
+        {
+            "question": "How to print an integer to transcript",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 7,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 7,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 125
+        },
+        {
+            "question": "Regex: Matching all words in a phrase",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 87
+        },
+        {
+            "question": "What is the difference between self and yourself in Smalltalk?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 57
+        }
+    ],
+    "qualitative_feedback": "Personally I always prefer snippets of code when I'm generally reading about coding. Yes, some answers were really understandable and at the same time detailed enough without examples of code, but having it there just does it for me."
+}

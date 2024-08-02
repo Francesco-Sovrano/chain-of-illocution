@@ -1,0 +1,140 @@
+{
+    "username": "65590b632aa62dd31aabb6e1",
+    "How would you rate your knowledge of <b>Python</b>?": 1,
+    "How would you rate your knowledge of <b>Java</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "Reading a plain text file in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 44
+        },
+        {
+            "question": "What is the difference between public, protected, package-private and private in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 340
+        },
+        {
+            "question": "Getting random numbers in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 138
+        },
+        {
+            "question": "How do I make a flat list out of a list of lists?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 181
+        },
+        {
+            "question": "How to remove an element from a list by index",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 159
+        },
+        {
+            "question": "How to use a global variable in a function?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 188
+        }
+    ],
+    "qualitative_feedback": "The explanations are quite easy to understand plus there's the book \"Thinking In Java\" which i believe would make each step simpler. There is no better way to improve the explanation."
+}

@@ -1,0 +1,140 @@
+{
+    "username": "661bfaacdb7c66838bc16244",
+    "How would you rate your knowledge of <b>Python</b>?": 5,
+    "How would you rate your knowledge of <b>Java</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "How do I compare strings in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 9,
+                    "GenAI": 2
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 8,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 8,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 187
+        },
+        {
+            "question": "What does \"Could not find or load main class\" mean?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 7,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 6,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 153
+        },
+        {
+            "question": "Iterate through a HashMap",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 7,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 114
+        },
+        {
+            "question": "Iterating over dictionaries using 'for' loops",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 120
+        },
+        {
+            "question": "How do I sort a dictionary by value?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 150
+        },
+        {
+            "question": "How can I add new keys to a dictionary?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 162
+        }
+    ],
+    "qualitative_feedback": "They were very similar to each other, difficult to distinguish them"
+}

@@ -1,0 +1,140 @@
+{
+    "username": "66572728779796bdfdf5ddcf",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "What is dependency injection?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "RAG+CoI": 5,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "RAG+CoI": 5,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 2,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 156
+        },
+        {
+            "question": "How do you implement the Singleton design pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 3
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 3
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 7,
+                    "GenAI": 3
+                }
+            },
+            "elapsed_seconds": 125
+        },
+        {
+            "question": "What is Inversion of Control?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 5,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 90
+        },
+        {
+            "question": "Squeak or Pharo for the beginning Smalltalker?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 100
+        },
+        {
+            "question": "Smalltalk - Is it possible to add a string to a String instance via a method?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 4
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 4
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 4
+                }
+            },
+            "elapsed_seconds": 74
+        },
+        {
+            "question": "Check if an object is an instance of a given class or of a subclass of it",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 3,
+                    "RAG": 9,
+                    "GenAI": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 3,
+                    "RAG": 8,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 3,
+                    "RAG": 8,
+                    "GenAI": 5
+                }
+            },
+            "elapsed_seconds": 71
+        }
+    ],
+    "qualitative_feedback": ""
+}

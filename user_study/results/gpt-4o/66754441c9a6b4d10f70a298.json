@@ -1,0 +1,140 @@
+{
+    "username": "66754441c9a6b4d10f70a298",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "Instantiate an object with a runtime-determined type",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 4,
+                    "RAG+CoI": 2,
+                    "GenAI": 5
+                },
+                "Relevance": {
+                    "RAG": 3,
+                    "RAG+CoI": 2,
+                    "GenAI": 6
+                },
+                "Correctness": {
+                    "RAG": 5,
+                    "RAG+CoI": 3,
+                    "GenAI": 6
+                }
+            },
+            "elapsed_seconds": 94
+        },
+        {
+            "question": "What is the difference between Factory and Strategy patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 6,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 146
+        },
+        {
+            "question": "Understand the \"Decorator Pattern\" with a real world example",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 6,
+                    "RAG+CoI": 4,
+                    "GenAI": 2
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 6,
+                    "GenAI": 3
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 5,
+                    "GenAI": 4
+                }
+            },
+            "elapsed_seconds": 98
+        },
+        {
+            "question": "In Pharo/Smalltalk: How to read a file with a specific encoding?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 1,
+                    "RAG+CoI": 2,
+                    "GenAI": 2
+                },
+                "Relevance": {
+                    "RAG": 2,
+                    "RAG+CoI": 2,
+                    "GenAI": 3
+                },
+                "Correctness": {
+                    "RAG": 1,
+                    "RAG+CoI": 1,
+                    "GenAI": 1
+                }
+            },
+            "elapsed_seconds": 33
+        },
+        {
+            "question": "Message Not Understood for existing method",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 2,
+                    "RAG+CoI": 1,
+                    "GenAI": 2
+                },
+                "Relevance": {
+                    "RAG": 6,
+                    "RAG+CoI": 2,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG": 2,
+                    "RAG+CoI": 3,
+                    "GenAI": 1
+                }
+            },
+            "elapsed_seconds": 25
+        },
+        {
+            "question": "Invoking shell commands from Squeak or Pharo",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 2,
+                    "RAG+CoI": 2,
+                    "GenAI": 2
+                },
+                "Relevance": {
+                    "RAG": 2,
+                    "RAG+CoI": 6,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG": 1,
+                    "RAG+CoI": 1,
+                    "GenAI": 5
+                }
+            },
+            "elapsed_seconds": 18
+        }
+    ],
+    "qualitative_feedback": "The questionnaire was too long"
+}

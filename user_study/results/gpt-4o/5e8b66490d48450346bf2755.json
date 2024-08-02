@@ -1,0 +1,29 @@
+{
+    "username": "5e8b66490d48450346bf2755",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "What's the simplest way to print a Java array?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "GenAI": 6,
+                    "RAG+CoI": 4
+                },
+                "Relevance": {
+                    "RAG": 4,
+                    "GenAI": 5,
+                    "RAG+CoI": 5
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 5,
+                    "RAG+CoI": 4
+                }
+            },
+            "elapsed_seconds": 150
+        }
+    ]
+}

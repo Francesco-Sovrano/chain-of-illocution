@@ -1,0 +1,140 @@
+{
+    "username": "608098a924ec16655d93b6a3",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "What's the difference between design patterns and architectural patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "GenAI": 9,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 9,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 208
+        },
+        {
+            "question": "Difference between singleton and factory method pattern",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 116
+        },
+        {
+            "question": "What are the downsides to using dependency injection?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 84
+        },
+        {
+            "question": "How to set day month and year values for a Date or DataAndTime object in Smalltalk (Pharo / Squeak)",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 105
+        },
+        {
+            "question": "How to sort a Dictionary by values in Smalltalk?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 127
+        },
+        {
+            "question": "How to check if two arrays contain the same elements?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "GenAI": 7,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "GenAI": 7,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 8,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 69
+        }
+    ],
+    "qualitative_feedback": "They were actually good "
+}

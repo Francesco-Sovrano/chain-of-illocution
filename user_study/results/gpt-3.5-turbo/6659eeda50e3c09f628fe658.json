@@ -1,0 +1,140 @@
+{
+    "username": "6659eeda50e3c09f628fe658",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "How to initialize List<String> object in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 5,
+                    "GenAI": 5,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 5,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 5,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 92
+        },
+        {
+            "question": "Java - Convert integer to string",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 5,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 42
+        },
+        {
+            "question": "How to check if a String is numeric in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 6,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 6,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 35
+        },
+        {
+            "question": "Find a value in a list",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 71
+        },
+        {
+            "question": "What is the difference between Python's list methods append and extend?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 87
+        },
+        {
+            "question": "How do I get the last element of a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 50
+        }
+    ],
+    "qualitative_feedback": "I think they should have a bit more examples that are relatable and easier to assimilate."
+}

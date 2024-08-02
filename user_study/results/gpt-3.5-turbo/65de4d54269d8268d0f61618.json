@@ -1,0 +1,140 @@
+{
+    "username": "65de4d54269d8268d0f61618",
+    "How would you rate your knowledge of <b>Pharo</b>?": 4,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "Singleton: How should it be used",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 630
+        },
+        {
+            "question": "How to study design patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG+CoI": 9,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG+CoI": 8,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG+CoI": 8,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 347
+        },
+        {
+            "question": "When should we use Observer and Observable?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 336
+        },
+        {
+            "question": "How do we write if elseif elseif in pharo?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG+CoI": 8,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG+CoI": 8,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG+CoI": 8,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 220
+        },
+        {
+            "question": "Usage of self subclassResponsibility",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 285
+        },
+        {
+            "question": "Syntax for class and instance variables and methods in Pharo 4.0",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 125
+        }
+    ],
+    "qualitative_feedback": "most explanations are comprehensive or detailed when it comes to explaining the logic, but for a lot of them, they lack illustration of examples.\nI really like that question where observers and observable concepts were explained. They gave more relatable examples like: Students subscribing to message boards or users following twitter or unfollowing. "
+}

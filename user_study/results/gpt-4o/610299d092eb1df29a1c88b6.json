@@ -1,0 +1,140 @@
+{
+    "username": "610299d092eb1df29a1c88b6",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "What's the simplest way to print a Java array?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 273
+        },
+        {
+            "question": "How do I create a file and write to it?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 74
+        },
+        {
+            "question": "In detail, how does the 'for each' loop work in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 1,
+                    "GenAI": 1,
+                    "RAG": 1
+                },
+                "Relevance": {
+                    "RAG+CoI": 1,
+                    "GenAI": 1,
+                    "RAG": 1
+                },
+                "Correctness": {
+                    "RAG+CoI": 1,
+                    "GenAI": 1,
+                    "RAG": 1
+                }
+            },
+            "elapsed_seconds": 20
+        },
+        {
+            "question": "How do I execute a program or call a system command?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 17
+        },
+        {
+            "question": "How do I parse a string to a float or int?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 6,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 4,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 18
+        },
+        {
+            "question": "What does if __name__ == \"__main__\": do?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG+CoI": 7,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG+CoI": 8,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG+CoI": 9,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 28
+        }
+    ],
+    "qualitative_feedback": "Explanation was well presented but the coding had some glitch in it."
+}

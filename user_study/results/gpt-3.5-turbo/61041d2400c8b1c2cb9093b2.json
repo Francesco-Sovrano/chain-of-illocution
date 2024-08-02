@@ -1,0 +1,140 @@
+{
+    "username": "61041d2400c8b1c2cb9093b2",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "How do I convert a String to an int in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 7,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 7,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 221
+        },
+        {
+            "question": "How do I declare and initialize an array in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 53
+        },
+        {
+            "question": "How do I split a string in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 65
+        },
+        {
+            "question": "Does Python have a string 'contains' substring method?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 6
+                }
+            },
+            "elapsed_seconds": 71
+        },
+        {
+            "question": "Check if a given key already exists in a dictionary",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 43
+        },
+        {
+            "question": "How to find the index for a given item in a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 8,
+                    "GenAI": 6
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 65
+        }
+    ],
+    "qualitative_feedback": "The 3 explanations that were given for each question were made in a way that a person that has never used java or python would likely understand the most explanatory one, while a person with some understanding of basic programming would likely understand the most succint one. I would not improve them by any means, they were incredibly self-explanatory\n"
+}

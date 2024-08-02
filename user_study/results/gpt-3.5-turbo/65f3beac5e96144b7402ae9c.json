@@ -1,0 +1,140 @@
+{
+    "username": "65f3beac5e96144b7402ae9c",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How do I make a delay in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "RAG": 8,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 769
+        },
+        {
+            "question": "How to round a number to n decimal places in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 9,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 222
+        },
+        {
+            "question": "&& (AND) and || (OR) in IF statements",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 175
+        },
+        {
+            "question": "How do I create a directory, and any missing parent directories?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 187
+        },
+        {
+            "question": "How to copy files",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "RAG": 9,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 105
+        },
+        {
+            "question": "How can I delete a file or folder in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 206
+        }
+    ],
+    "qualitative_feedback": "This study was really good. It really helped me recollect my knowledge python and java. And it was very interesting to do this task. Thank you."
+}

@@ -1,0 +1,29 @@
+{
+    "username": "655cc9541021c4ea7e42d063",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Replacing nested if statements",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "RAG+CoI": 7,
+                    "GenAI": 5
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 4
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 2
+                }
+            },
+            "elapsed_seconds": 323
+        }
+    ]
+}

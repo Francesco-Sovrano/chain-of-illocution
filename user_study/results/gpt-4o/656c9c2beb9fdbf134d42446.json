@@ -1,0 +1,140 @@
+{
+    "username": "656c9c2beb9fdbf134d42446",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How do I determine whether an array contains a particular value in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 5,
+                    "RAG+CoI": 3
+                }
+            },
+            "elapsed_seconds": 219
+        },
+        {
+            "question": "How do I read / convert an InputStream into a String in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 7,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "GenAI": 7,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 39
+        },
+        {
+            "question": "How to make a new List in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 7,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "GenAI": 7,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 5,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 64
+        },
+        {
+            "question": "How to access the index value in a 'for' loop?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 5,
+                    "GenAI": 7,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 6,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 29
+        },
+        {
+            "question": "How do I concatenate two lists in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 6,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "RAG": 6,
+                    "GenAI": 4,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 5,
+                    "GenAI": 5,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 26
+        },
+        {
+            "question": "How do I get the current time in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "GenAI": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 42
+        }
+    ],
+    "qualitative_feedback": "It actually makes sense they is nothing to improve everything is perfect "
+}

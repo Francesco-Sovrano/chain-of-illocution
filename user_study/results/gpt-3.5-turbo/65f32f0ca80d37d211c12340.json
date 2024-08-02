@@ -1,0 +1,140 @@
+{
+    "username": "65f32f0ca80d37d211c12340",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How to get the current date/time in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 8,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 7,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 355
+        },
+        {
+            "question": "Java string to date conversion",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 6,
+                    "RAG": 4
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 173
+        },
+        {
+            "question": "How do I convert from int to String?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 5,
+                    "GenAI": 4,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 4,
+                    "GenAI": 8,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "GenAI": 7,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 99
+        },
+        {
+            "question": "How do I get a substring of a string in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 6,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "RAG+CoI": 6,
+                    "GenAI": 7,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 51
+        },
+        {
+            "question": "How do I get the number of elements in a list (length of a list) in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 7,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 7,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 44
+        },
+        {
+            "question": "Convert integer to string in Python",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 8,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 49
+        }
+    ],
+    "qualitative_feedback": ""
+}

@@ -1,0 +1,140 @@
+{
+    "username": "6159d36b31fe01e003282538",
+    "How would you rate your knowledge of <b>Python</b>?": 5,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "How do I make a delay in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 22
+        },
+        {
+            "question": "How to round a number to n decimal places in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 7,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 29
+        },
+        {
+            "question": "&& (AND) and || (OR) in IF statements",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 17
+        },
+        {
+            "question": "How do I create a directory, and any missing parent directories?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 7,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 22
+        },
+        {
+            "question": "How to copy files",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 7,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 7,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 16
+        },
+        {
+            "question": "How can I delete a file or folder in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 7,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 18
+        }
+    ],
+    "qualitative_feedback": ""
+}

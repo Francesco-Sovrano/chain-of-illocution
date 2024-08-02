@@ -1,0 +1,140 @@
+{
+    "username": "669aafcb107577620a4b6eda",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "What is a NullPointerException, and how do I fix it?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 5,
+                    "RAG+CoI": 8,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "GenAI": 4,
+                    "RAG+CoI": 7,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "GenAI": 4,
+                    "RAG+CoI": 6,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 237
+        },
+        {
+            "question": "Initialization of an ArrayList in one line",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG+CoI": 6,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG+CoI": 5,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG+CoI": 4,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 61
+        },
+        {
+            "question": "How do I efficiently iterate over each entry in a Java Map?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 7,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 91
+        },
+        {
+            "question": "Convert bytes to a string in Python 3",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 7,
+                    "RAG+CoI": 5
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 5,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 35
+        },
+        {
+            "question": "How do I check if a list is empty?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 5,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 5,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 48
+        },
+        {
+            "question": "Find the current directory and file's directory",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 9,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 7,
+                    "RAG+CoI": 5
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG": 7,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 38
+        }
+    ],
+    "qualitative_feedback": ""
+}

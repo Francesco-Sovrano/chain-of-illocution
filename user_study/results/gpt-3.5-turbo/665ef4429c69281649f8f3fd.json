@@ -1,0 +1,140 @@
+{
+    "username": "665ef4429c69281649f8f3fd",
+    "How would you rate your knowledge of <b>Python</b>?": 5,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "Does Java support default parameter values?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 68
+        },
+        {
+            "question": "Converting array to list in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 18
+        },
+        {
+            "question": "How to directly initialize a HashMap (in a literal way)?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 25
+        },
+        {
+            "question": "How do I merge two dictionaries in a single expression in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 63
+        },
+        {
+            "question": "What does the \"yield\" keyword do in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 34
+        },
+        {
+            "question": "How to check if the string is empty in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 24
+        }
+    ],
+    "qualitative_feedback": "It's interactive and reaching more people ud help in improvement"
+}

@@ -1,0 +1,140 @@
+{
+    "username": "6696cc31a33b18867afa1935",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "Does Java support default parameter values?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "GenAI": 8,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 308
+        },
+        {
+            "question": "Converting array to list in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 6,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 150
+        },
+        {
+            "question": "How to directly initialize a HashMap (in a literal way)?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 10,
+                    "RAG+CoI": 3
+                },
+                "Relevance": {
+                    "RAG": 6,
+                    "GenAI": 10,
+                    "RAG+CoI": 2
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 10,
+                    "RAG+CoI": 1
+                }
+            },
+            "elapsed_seconds": 163
+        },
+        {
+            "question": "How do I merge two dictionaries in a single expression in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 10,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "GenAI": 10,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 10,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 198
+        },
+        {
+            "question": "What does the \"yield\" keyword do in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "GenAI": 7,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 174
+        },
+        {
+            "question": "How to check if the string is empty in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 134
+        }
+    ],
+    "qualitative_feedback": "they were very clear but only for someone who has an programming backgroud,for someone who has no programming knowledge it would be very difficult to understand , some explanations were not very clear and was abit clustered"
+}

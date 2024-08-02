@@ -1,0 +1,140 @@
+{
+    "username": "66744c47875397236110eddf",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How do I compare strings in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 10,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 1128
+        },
+        {
+            "question": "What does \"Could not find or load main class\" mean?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 6,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 6,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 5,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 194
+        },
+        {
+            "question": "Iterate through a HashMap",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 130
+        },
+        {
+            "question": "Iterating over dictionaries using 'for' loops",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 8,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 7,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 84
+        },
+        {
+            "question": "How do I sort a dictionary by value?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 6,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 5,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 5,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 65
+        },
+        {
+            "question": "How can I add new keys to a dictionary?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 6,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 4,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 62
+        }
+    ],
+    "qualitative_feedback": "They are all quite good explanations. They have to be the most focused they can"
+}

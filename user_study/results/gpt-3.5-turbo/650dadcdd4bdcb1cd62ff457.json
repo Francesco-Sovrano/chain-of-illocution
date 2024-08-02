@@ -1,0 +1,140 @@
+{
+    "username": "650dadcdd4bdcb1cd62ff457",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "What is the difference between Builder Design pattern and Factory Design pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 4,
+                    "RAG": 7,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 3,
+                    "RAG": 6,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 4,
+                    "RAG": 8,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 251
+        },
+        {
+            "question": "What are the differences between Abstract Factory and Factory design patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 5,
+                    "RAG": 7,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 5,
+                    "RAG": 7,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 229
+        },
+        {
+            "question": "On design patterns: When should I use the singleton?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 5,
+                    "RAG": 3,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 4,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG": 4,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 164
+        },
+        {
+            "question": "Smalltalk initialization variables",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 5,
+                    "RAG+CoI": 4
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 4,
+                    "RAG+CoI": 4
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 7,
+                    "RAG+CoI": 3
+                }
+            },
+            "elapsed_seconds": 117
+        },
+        {
+            "question": "For loop for array in Pharo Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 8,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 7,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 8,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 177
+        },
+        {
+            "question": "How to access class variables in Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 5
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 9,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 5,
+                    "RAG": 8,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 1242
+        }
+    ],
+    "qualitative_feedback": "the explanations should be more practical to make it easier to understand the problem resolutions."
+}

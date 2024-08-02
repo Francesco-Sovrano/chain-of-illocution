@@ -1,0 +1,140 @@
+{
+    "username": "668be9cec07d42c2248f49bb",
+    "How would you rate your knowledge of <b>Pharo</b>?": 5,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Eliminating `switch` statements",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 162
+        },
+        {
+            "question": "Is there a typical state machine implementation pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 266
+        },
+        {
+            "question": "What does a diamond sign signify in UML class diagrams?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 182
+        },
+        {
+            "question": "If my Pharo image goes into an infinite loop, how do I break out of the loop?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 212
+        },
+        {
+            "question": "How can getter/setter code be generated automatically for a class in Pharo or Squeak?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 218
+        },
+        {
+            "question": "creation of a class in Pharo Smalltalk?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 303
+        }
+    ],
+    "qualitative_feedback": "I Think The questions Are Good And The Explanations Are Very Clear And Informative.They Are Good For Giving People Clear Instructions Of what To Do Whn They Are In Need Of Help.Thank You."
+}

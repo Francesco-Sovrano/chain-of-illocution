@@ -1,0 +1,140 @@
+{
+    "username": "61520b0a10d4908587ba49b2",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "How to initialize List<String> object in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 5,
+                    "GenAI": 4,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 4,
+                    "GenAI": 3,
+                    "RAG": 4
+                },
+                "Correctness": {
+                    "RAG+CoI": 4,
+                    "GenAI": 2,
+                    "RAG": 1
+                }
+            },
+            "elapsed_seconds": 122
+        },
+        {
+            "question": "Java - Convert integer to string",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 4,
+                    "GenAI": 4,
+                    "RAG": 3
+                },
+                "Relevance": {
+                    "RAG+CoI": 3,
+                    "GenAI": 3,
+                    "RAG": 2
+                },
+                "Correctness": {
+                    "RAG+CoI": 2,
+                    "GenAI": 2,
+                    "RAG": 1
+                }
+            },
+            "elapsed_seconds": 39
+        },
+        {
+            "question": "How to check if a String is numeric in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 2,
+                    "GenAI": 2,
+                    "RAG": 2
+                },
+                "Relevance": {
+                    "RAG+CoI": 1,
+                    "GenAI": 1,
+                    "RAG": 1
+                },
+                "Correctness": {
+                    "RAG+CoI": 1,
+                    "GenAI": 1,
+                    "RAG": 1
+                }
+            },
+            "elapsed_seconds": 33
+        },
+        {
+            "question": "Find a value in a list",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 3,
+                    "GenAI": 5,
+                    "RAG": 3
+                },
+                "Relevance": {
+                    "RAG+CoI": 4,
+                    "GenAI": 4,
+                    "RAG": 3
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 4
+                }
+            },
+            "elapsed_seconds": 36
+        },
+        {
+            "question": "What is the difference between Python's list methods append and extend?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 4,
+                    "RAG": 3
+                },
+                "Relevance": {
+                    "RAG+CoI": 3,
+                    "GenAI": 3,
+                    "RAG": 2
+                },
+                "Correctness": {
+                    "RAG+CoI": 3,
+                    "GenAI": 3,
+                    "RAG": 2
+                }
+            },
+            "elapsed_seconds": 19
+        },
+        {
+            "question": "How do I get the last element of a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 2,
+                    "RAG": 2,
+                    "RAG+CoI": 2
+                },
+                "Relevance": {
+                    "GenAI": 1,
+                    "RAG": 2,
+                    "RAG+CoI": 2
+                },
+                "Correctness": {
+                    "GenAI": 1,
+                    "RAG": 1,
+                    "RAG+CoI": 2
+                }
+            },
+            "elapsed_seconds": 23
+        }
+    ],
+    "qualitative_feedback": "Very difficult to understand "
+}

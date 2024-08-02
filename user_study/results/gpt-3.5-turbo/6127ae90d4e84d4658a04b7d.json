@@ -1,0 +1,140 @@
+{
+    "username": "6127ae90d4e84d4658a04b7d",
+    "How would you rate your knowledge of <b>Python</b>?": 2,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How to initialize List<String> object in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 2,
+                    "GenAI": 1
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 3,
+                    "GenAI": 1
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 1,
+                    "GenAI": 1
+                }
+            },
+            "elapsed_seconds": 294
+        },
+        {
+            "question": "Java - Convert integer to string",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 4,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 4,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 6,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 252
+        },
+        {
+            "question": "How to check if a String is numeric in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 9,
+                    "GenAI": 5
+                }
+            },
+            "elapsed_seconds": 242
+        },
+        {
+            "question": "Find a value in a list",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 1,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 1,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 1,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 205
+        },
+        {
+            "question": "What is the difference between Python's list methods append and extend?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 1
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 1
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 1
+                }
+            },
+            "elapsed_seconds": 104
+        },
+        {
+            "question": "How do I get the last element of a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 170
+        }
+    ],
+    "qualitative_feedback": ""
+}

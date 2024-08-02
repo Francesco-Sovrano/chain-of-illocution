@@ -1,0 +1,29 @@
+{
+    "username": "6598132e2f83fc5a0a0c66ad",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "Replacing if else statement with pattern",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 6,
+                    "GenAI": 8,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 7,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "GenAI": 5,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 108
+        }
+    ]
+}

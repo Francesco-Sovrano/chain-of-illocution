@@ -1,0 +1,29 @@
+{
+    "username": "6120211d8e1eab16fcb7ad69",
+    "How would you rate your knowledge of <b>Python</b>?": 2,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "How do I determine whether an array contains a particular value in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 7,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 611
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "username": "611e5ed10d7a62ceb0f1a619",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Instantiate an object with a runtime-determined type",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 343
+        },
+        {
+            "question": "What is the difference between Factory and Strategy patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 117
+        },
+        {
+            "question": "Understand the \"Decorator Pattern\" with a real world example",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 134
+        },
+        {
+            "question": "In Pharo/Smalltalk: How to read a file with a specific encoding?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 136
+        },
+        {
+            "question": "Message Not Understood for existing method",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 67
+        },
+        {
+            "question": "Invoking shell commands from Squeak or Pharo",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 67
+        }
+    ],
+    "qualitative_feedback": "They are okay, I would avoid too much theory and include more references"
+}

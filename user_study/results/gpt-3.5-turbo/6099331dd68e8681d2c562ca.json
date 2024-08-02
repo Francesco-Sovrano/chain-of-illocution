@@ -1,0 +1,140 @@
+{
+    "username": "6099331dd68e8681d2c562ca",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "How do I compare strings in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 5,
+                    "GenAI": 7,
+                    "RAG": 5
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 253
+        },
+        {
+            "question": "What does \"Could not find or load main class\" mean?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 7,
+                    "RAG": 5
+                }
+            },
+            "elapsed_seconds": 93
+        },
+        {
+            "question": "Iterate through a HashMap",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 4
+                }
+            },
+            "elapsed_seconds": 22
+        },
+        {
+            "question": "Iterating over dictionaries using 'for' loops",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 5,
+                    "RAG": 6
+                },
+                "Correctness": {
+                    "RAG+CoI": 6,
+                    "GenAI": 5,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 25
+        },
+        {
+            "question": "How do I sort a dictionary by value?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 7
+                }
+            },
+            "elapsed_seconds": 100
+        },
+        {
+            "question": "How can I add new keys to a dictionary?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 5
+                },
+                "Correctness": {
+                    "RAG+CoI": 5,
+                    "GenAI": 6,
+                    "RAG": 6
+                }
+            },
+            "elapsed_seconds": 18
+        }
+    ],
+    "qualitative_feedback": ""
+}

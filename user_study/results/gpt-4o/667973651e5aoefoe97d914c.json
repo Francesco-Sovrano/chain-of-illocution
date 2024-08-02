@@ -1,0 +1,140 @@
+{
+    "username": "667973651e5aoefoe97d914c",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "What is a NullPointerException, and how do I fix it?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 6,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "GenAI": 6,
+                    "RAG": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 6,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 221
+        },
+        {
+            "question": "Initialization of an ArrayList in one line",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 10,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 10,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 44
+        },
+        {
+            "question": "How do I efficiently iterate over each entry in a Java Map?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 8,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 8,
+                    "RAG": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 43
+        },
+        {
+            "question": "Convert bytes to a string in Python 3",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "GenAI": 10,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 53
+        },
+        {
+            "question": "How do I check if a list is empty?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 9,
+                    "GenAI": 7,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "GenAI": 7,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "GenAI": 7,
+                    "RAG": 8
+                }
+            },
+            "elapsed_seconds": 41
+        },
+        {
+            "question": "Find the current directory and file's directory",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "GenAI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "GenAI": 9,
+                    "RAG": 9
+                }
+            },
+            "elapsed_seconds": 46
+        }
+    ],
+    "qualitative_feedback": "the explanations are correct and are very easy to understand, even examples are given for you to understand the explanations given. To improve the explanations, maybe give more examples based on the topic or based on the explanations and pictures if possible so that it can be more understandable."
+}

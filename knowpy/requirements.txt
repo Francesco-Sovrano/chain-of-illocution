@@ -1,0 +1,34 @@
+sentence_transformers>=2.7.0 # sentence embeddings
+spacy # NLP
+langdetect
+
+pydot # graphs
+pydotplus # graphs
+networkx # graphs
+pandas
+lxml
+chardet # Universal encoding detector for Python 2 and 3
+unidecode # text formatting
+pathos
+
+### with no version specified
+python-Levenshtein # levenshtein string distance
+nltk # stemming, wordnet, etc..
+bs4 # xml to txt
+scikit-learn
+scipy
+PyMuPDF
+matplotlib
+sortedcontainers
+more_itertools
+numpy
+tqdm
+
+### question_answer_extraction
+nlp
+hnswlib # kNN
+# simpleneighbors[annoy] # kNN
+
+### Generative AI
+ollama
+openai

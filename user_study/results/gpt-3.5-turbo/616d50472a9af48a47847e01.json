@@ -1,0 +1,117 @@
+{
+    "username": "616d50472a9af48a47847e01",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "How do I convert a String to an int in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "RAG+CoI": 8,
+                    "GenAI": 6
+                }
+            },
+            "elapsed_seconds": 81
+        },
+        {
+            "question": "How do I declare and initialize an array in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 5,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 4,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 4,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 50
+        },
+        {
+            "question": "How do I split a string in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 5,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "RAG+CoI": 5,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 5,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 58
+        },
+        {
+            "question": "Does Python have a string 'contains' substring method?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 6,
+                    "RAG+CoI": 7,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 3,
+                    "RAG+CoI": 8,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "RAG+CoI": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 31
+        },
+        {
+            "question": "Check if a given key already exists in a dictionary",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "RAG+CoI": 8,
+                    "GenAI": 1
+                },
+                "Relevance": {
+                    "RAG": 5,
+                    "RAG+CoI": 7,
+                    "GenAI": 1
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 7,
+                    "GenAI": 1
+                }
+            },
+            "elapsed_seconds": 39
+        }
+    ]
+}

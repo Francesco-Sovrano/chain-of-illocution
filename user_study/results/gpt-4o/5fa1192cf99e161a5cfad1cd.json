@@ -1,0 +1,29 @@
+{
+    "username": "5fa1192cf99e161a5cfad1cd",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "Singleton: How should it be used",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 6,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 5,
+                    "GenAI": 3
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 8,
+                    "GenAI": 5
+                }
+            },
+            "elapsed_seconds": 394
+        }
+    ]
+}

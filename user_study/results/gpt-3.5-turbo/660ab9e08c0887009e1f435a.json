@@ -1,0 +1,140 @@
+{
+    "username": "660ab9e08c0887009e1f435a",
+    "How would you rate your knowledge of <b>Python</b>?": 5,
+    "How would you rate your knowledge of <b>Java</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "What is a NullPointerException, and how do I fix it?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 146
+        },
+        {
+            "question": "Initialization of an ArrayList in one line",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 56
+        },
+        {
+            "question": "How do I efficiently iterate over each entry in a Java Map?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 28
+        },
+        {
+            "question": "Convert bytes to a string in Python 3",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 41
+        },
+        {
+            "question": "How do I check if a list is empty?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 73
+        },
+        {
+            "question": "Find the current directory and file's directory",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "GenAI": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 39
+        }
+    ],
+    "qualitative_feedback": "Some explanations show a lot of text without any practical examples. This was essential for my evaluation. Direct examples and practical solutions are more useful in everyday life."
+}

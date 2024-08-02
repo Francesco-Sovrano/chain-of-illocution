@@ -1,0 +1,140 @@
+{
+    "username": "6673181e5ccbdc5813efbc7f",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "How do I convert a String to an int in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "RAG+CoI": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG": 5,
+                    "RAG+CoI": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 228
+        },
+        {
+            "question": "How do I declare and initialize an array in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 2,
+                    "GenAI": 4
+                },
+                "Relevance": {
+                    "RAG": 5,
+                    "RAG+CoI": 2,
+                    "GenAI": 3
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "RAG+CoI": 2,
+                    "GenAI": 4
+                }
+            },
+            "elapsed_seconds": 113
+        },
+        {
+            "question": "How do I split a string in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 4,
+                    "RAG+CoI": 7,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG": 5,
+                    "RAG+CoI": 7,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 82
+        },
+        {
+            "question": "Does Python have a string 'contains' substring method?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 7,
+                    "GenAI": 3
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 8,
+                    "GenAI": 2
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 8,
+                    "GenAI": 2
+                }
+            },
+            "elapsed_seconds": 51
+        },
+        {
+            "question": "Check if a given key already exists in a dictionary",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "RAG+CoI": 7,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 6,
+                    "RAG+CoI": 7,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 41
+        },
+        {
+            "question": "How to find the index for a given item in a list?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 10,
+                    "GenAI": 3
+                },
+                "Relevance": {
+                    "RAG": 5,
+                    "RAG+CoI": 10,
+                    "GenAI": 4
+                },
+                "Correctness": {
+                    "RAG": 5,
+                    "RAG+CoI": 9,
+                    "GenAI": 5
+                }
+            },
+            "elapsed_seconds": 53
+        }
+    ],
+    "qualitative_feedback": "In the end it is a lot about the format of the explanations. Like how fast do I understand what I read and also how easy it is to read it. For example if it has hightlights or extra space. Furthermore the complexity of words also determines success in these explanations"
+}

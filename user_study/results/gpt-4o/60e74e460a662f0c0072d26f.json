@@ -1,0 +1,29 @@
+{
+    "username": "60e74e460a662f0c0072d26f",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "What is dependency injection?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 7,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "RAG+CoI": 7,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 166
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "username": "651042d2b900aedd4dc980fb",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "How do I make a delay in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 239
+        },
+        {
+            "question": "How to round a number to n decimal places in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 5
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 116
+        },
+        {
+            "question": "&& (AND) and || (OR) in IF statements",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 121
+        },
+        {
+            "question": "How do I create a directory, and any missing parent directories?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 9,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 9,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 117
+        },
+        {
+            "question": "How to copy files",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 47
+        },
+        {
+            "question": "How can I delete a file or folder in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 8,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 45
+        }
+    ],
+    "qualitative_feedback": "This is strange that arguments does not appears in code samples ? \nThat's makes code doesn't works at all..."
+}

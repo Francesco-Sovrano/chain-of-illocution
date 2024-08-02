@@ -1,0 +1,140 @@
+{
+    "username": "666b0b42bb6fa2822fa27a32",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "How do I determine whether an array contains a particular value in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 6,
+                    "GenAI": 4
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 8,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 413
+        },
+        {
+            "question": "How do I read / convert an InputStream into a String in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 10,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 10,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 88
+        },
+        {
+            "question": "How to make a new List in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 10,
+                    "GenAI": 5
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 10,
+                    "GenAI": 6
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 9,
+                    "GenAI": 6
+                }
+            },
+            "elapsed_seconds": 99
+        },
+        {
+            "question": "How to access the index value in a 'for' loop?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 5,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 6,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "RAG+CoI": 5,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 107
+        },
+        {
+            "question": "How do I concatenate two lists in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "RAG+CoI": 8,
+                    "GenAI": 3
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 9,
+                    "GenAI": 4
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "RAG+CoI": 9,
+                    "GenAI": 4
+                }
+            },
+            "elapsed_seconds": 59
+        },
+        {
+            "question": "How do I get the current time in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "RAG+CoI": 6,
+                    "GenAI": 5
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 5,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 5,
+                    "GenAI": 4
+                }
+            },
+            "elapsed_seconds": 60
+        }
+    ],
+    "qualitative_feedback": ""
+}

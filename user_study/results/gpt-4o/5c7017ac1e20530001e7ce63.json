@@ -1,0 +1,140 @@
+{
+    "username": "5c7017ac1e20530001e7ce63",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "How to get the current date/time in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 7,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 1240
+        },
+        {
+            "question": "Java string to date conversion",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 98
+        },
+        {
+            "question": "How do I convert from int to String?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 99
+        },
+        {
+            "question": "How do I get a substring of a string in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 73
+        },
+        {
+            "question": "How do I get the number of elements in a list (length of a list) in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 9
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 80
+        },
+        {
+            "question": "Convert integer to string in Python",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 8,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 9,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 51
+        }
+    ],
+    "qualitative_feedback": "In general, I believe the explanations should be shorter and with simple examples. That is the best way to learn from my viewpoint."
+}

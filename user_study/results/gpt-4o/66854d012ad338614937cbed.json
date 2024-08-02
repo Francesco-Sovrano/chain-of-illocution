@@ -1,0 +1,140 @@
+{
+    "username": "66854d012ad338614937cbed",
+    "How would you rate your knowledge of <b>Pharo</b>?": 4,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "What is the difference between Builder Design pattern and Factory Design pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 497
+        },
+        {
+            "question": "What are the differences between Abstract Factory and Factory design patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 163
+        },
+        {
+            "question": "On design patterns: When should I use the singleton?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 10,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "RAG+CoI": 10,
+                    "GenAI": 6
+                }
+            },
+            "elapsed_seconds": 106
+        },
+        {
+            "question": "Smalltalk initialization variables",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 7,
+                    "RAG+CoI": 9,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 10,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 147
+        },
+        {
+            "question": "For loop for array in Pharo Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "RAG+CoI": 10,
+                    "GenAI": 6
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "RAG+CoI": 9,
+                    "GenAI": 5
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "RAG+CoI": 9,
+                    "GenAI": 6
+                }
+            },
+            "elapsed_seconds": 231
+        },
+        {
+            "question": "How to access class variables in Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "RAG+CoI": 7,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "RAG+CoI": 7,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG": 7,
+                    "RAG+CoI": 8,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 49
+        }
+    ],
+    "qualitative_feedback": ""
+}

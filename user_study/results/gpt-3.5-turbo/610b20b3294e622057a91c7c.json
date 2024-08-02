@@ -1,0 +1,140 @@
+{
+    "username": "610b20b3294e622057a91c7c",
+    "How would you rate your knowledge of <b>Pharo</b>?": 3,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Replacing if else statement with pattern",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 7
+                },
+                "Relevance": {
+                    "RAG+CoI": 6,
+                    "RAG": 8,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "RAG": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 223
+        },
+        {
+            "question": "What is the facade design pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 9,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 9,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 121
+        },
+        {
+            "question": "Does functional programming replace GoF design patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Relevance": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 9
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 8,
+                    "GenAI": 9
+                }
+            },
+            "elapsed_seconds": 110
+        },
+        {
+            "question": "Smalltalk - Print something for each 2 seconds",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 6,
+                    "RAG": 6,
+                    "GenAI": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 7,
+                    "RAG": 6,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 7,
+                    "RAG": 6,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 405
+        },
+        {
+            "question": "Why is Smalltalk sometimes called \"dynamically typed\"?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 9,
+                    "GenAI": 6
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 7
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 7
+                }
+            },
+            "elapsed_seconds": 258
+        },
+        {
+            "question": "What is the difference between \"instance Variable Names\" and \"class Variable Names\", in pharo?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 8,
+                    "RAG": 7,
+                    "GenAI": 8
+                },
+                "Relevance": {
+                    "RAG+CoI": 8,
+                    "RAG": 7,
+                    "GenAI": 8
+                },
+                "Correctness": {
+                    "RAG+CoI": 8,
+                    "RAG": 8,
+                    "GenAI": 8
+                }
+            },
+            "elapsed_seconds": 51
+        }
+    ],
+    "qualitative_feedback": ""
+}

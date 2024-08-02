@@ -1,0 +1,51 @@
+{
+    "username": "66912d92f9ce4d55bb5d3d6a",
+    "How would you rate your knowledge of <b>Pharo</b>?": 4,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "Difference between static class and singleton pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 8
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 638
+        },
+        {
+            "question": "What are drawbacks or disadvantages of singleton pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG+CoI": 9,
+                    "RAG": 9
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG+CoI": 10,
+                    "RAG": 10
+                }
+            },
+            "elapsed_seconds": 316
+        }
+    ]
+}

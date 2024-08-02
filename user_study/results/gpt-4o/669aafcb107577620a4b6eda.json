@@ -1,0 +1,140 @@
+{
+    "username": "669aafcb107577620a4b6eda",
+    "How would you rate your knowledge of <b>Python</b>?": 3,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "Reading a plain text file in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 5,
+                    "RAG": 7,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 5,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 5,
+                    "RAG": 5,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 165
+        },
+        {
+            "question": "What is the difference between public, protected, package-private and private in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG": 7,
+                    "RAG+CoI": 5
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 164
+        },
+        {
+            "question": "Getting random numbers in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 4,
+                    "RAG": 7,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 46
+        },
+        {
+            "question": "How do I make a flat list out of a list of lists?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 6,
+                    "RAG+CoI": 5
+                },
+                "Correctness": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 63
+        },
+        {
+            "question": "How to remove an element from a list by index",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 5,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 5,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG": 4,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 41
+        },
+        {
+            "question": "How to use a global variable in a function?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 4,
+                    "RAG": 7,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 4,
+                    "RAG": 5,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 44
+        }
+    ],
+    "qualitative_feedback": ""
+}

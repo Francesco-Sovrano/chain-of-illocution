@@ -1,0 +1,140 @@
+{
+    "username": "6645527fe0c8bbee67e3e85b",
+    "How would you rate your knowledge of <b>Python</b>?": 5,
+    "How would you rate your knowledge of <b>Java</b>?": 3,
+    "evaluation_list": [
+        {
+            "question": "How do I make a delay in Java?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 1,
+                    "RAG": 1,
+                    "RAG+CoI": 2
+                },
+                "Relevance": {
+                    "GenAI": 3,
+                    "RAG": 3,
+                    "RAG+CoI": 3
+                },
+                "Correctness": {
+                    "GenAI": 2,
+                    "RAG": 2,
+                    "RAG+CoI": 3
+                }
+            },
+            "elapsed_seconds": 212
+        },
+        {
+            "question": "How to round a number to n decimal places in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 5,
+                    "RAG": 2,
+                    "RAG+CoI": 5
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 1,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 4,
+                    "RAG": 1,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 244
+        },
+        {
+            "question": "&& (AND) and || (OR) in IF statements",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 7,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 5,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 120
+        },
+        {
+            "question": "How do I create a directory, and any missing parent directories?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 10,
+                    "RAG+CoI": 5
+                },
+                "Relevance": {
+                    "GenAI": 8,
+                    "RAG": 10,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 10,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 112
+        },
+        {
+            "question": "How to copy files",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 1,
+                    "RAG+CoI": 1
+                },
+                "Relevance": {
+                    "GenAI": 7,
+                    "RAG": 1,
+                    "RAG+CoI": 1
+                },
+                "Correctness": {
+                    "GenAI": 5,
+                    "RAG": 1,
+                    "RAG+CoI": 1
+                }
+            },
+            "elapsed_seconds": 97
+        },
+        {
+            "question": "How can I delete a file or folder in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 9,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 112
+        }
+    ],
+    "qualitative_feedback": "I'm not sure if this was done intentionally, but all the functions seemed to have the parameters removed. For example for removing a file in python, answers suggests using os.remove from os module. But it also gives example code that looks like this:\n\nimport os\nos.remove\n\nThis will not behave in a desired way, as the os.remove function is lacking parameters. It has to look like os.remove(\"example.txt\"). I was unsure if these were intentional edits done to original answers, so it made it a little more challenging to rate them correctly."
+}

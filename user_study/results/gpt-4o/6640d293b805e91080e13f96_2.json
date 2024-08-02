@@ -1,0 +1,140 @@
+{
+    "username": "6640d293b805e91080e13f96",
+    "How would you rate your knowledge of <b>Pharo</b>?": 3,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 4,
+    "evaluation_list": [
+        {
+            "question": "When would you use the Builder Pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 9,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 84
+        },
+        {
+            "question": "What is a wrapper class?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 16
+        },
+        {
+            "question": "What are static factory methods?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 18
+        },
+        {
+            "question": "Pharo method with multiple arguments",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 22
+        },
+        {
+            "question": "making a constructor in Pharo or Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 36
+        },
+        {
+            "question": "SmallTalk - Printing contents of an OrderedCollection object using Transcript",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Relevance": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                },
+                "Correctness": {
+                    "RAG+CoI": 10,
+                    "RAG": 10,
+                    "GenAI": 10
+                }
+            },
+            "elapsed_seconds": 14
+        }
+    ],
+    "qualitative_feedback": "They give a very precise explanation and make it more simple from complex for one to be able to understand."
+}

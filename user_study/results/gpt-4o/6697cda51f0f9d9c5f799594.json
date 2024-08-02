@@ -1,0 +1,140 @@
+{
+    "username": "6697cda51f0f9d9c5f799594",
+    "How would you rate your knowledge of <b>Pharo</b>?": 2,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 1,
+    "evaluation_list": [
+        {
+            "question": "Singleton: How should it be used",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 7,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 5,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 10,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 328
+        },
+        {
+            "question": "How to study design patterns?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 5,
+                    "GenAI": 7,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "RAG": 3,
+                    "GenAI": 7,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 9,
+                    "RAG+CoI": 8
+                }
+            },
+            "elapsed_seconds": 70
+        },
+        {
+            "question": "When should we use Observer and Observable?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 8,
+                    "GenAI": 8,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 7,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "RAG": 8,
+                    "GenAI": 5,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 47
+        },
+        {
+            "question": "How do we write if elseif elseif in pharo?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 10,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 8,
+                    "GenAI": 6,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "RAG": 6,
+                    "GenAI": 1,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 56
+        },
+        {
+            "question": "Usage of self subclassResponsibility",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 9,
+                    "GenAI": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "RAG": 9,
+                    "GenAI": 8,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "RAG": 9,
+                    "GenAI": 6,
+                    "RAG+CoI": 9
+                }
+            },
+            "elapsed_seconds": 44
+        },
+        {
+            "question": "Syntax for class and instance variables and methods in Pharo 4.0",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "RAG": 10,
+                    "GenAI": 10,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 5
+                },
+                "Correctness": {
+                    "RAG": 10,
+                    "GenAI": 9,
+                    "RAG+CoI": 4
+                }
+            },
+            "elapsed_seconds": 42
+        }
+    ],
+    "qualitative_feedback": "I think they encapsulate best description and help developers avoid common pitfalls. However, it's crucial to apply them judiciously; overusing patterns can lead to unnecessary complexity. \n\nMoreover, while they provide a solid foundation, it's essential to adapt patterns to fit the specific context of a project rather than applying them rigidly. Ultimately, the goal should be to enhance clarity and maintainability, not just to follow trends. Balancing the use of patterns with practical needs is key to effective software design."
+}

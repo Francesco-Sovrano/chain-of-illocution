@@ -1,0 +1,140 @@
+{
+    "username": "6164a55a5d9842190cc325e1",
+    "How would you rate your knowledge of <b>Pharo</b>?": 1,
+    "How would you rate your knowledge of <b>object-oriented design patterns</b>?": 2,
+    "evaluation_list": [
+        {
+            "question": "Replacing nested if statements",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 4
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 6,
+                    "RAG+CoI": 3
+                },
+                "Correctness": {
+                    "GenAI": 6,
+                    "RAG": 4,
+                    "RAG+CoI": 2
+                }
+            },
+            "elapsed_seconds": 370
+        },
+        {
+            "question": "What is an anti-pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 213
+        },
+        {
+            "question": "Why is Singleton considered an anti-pattern?",
+            "topic": "design_patterns",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 5,
+                    "RAG+CoI": 5
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 6,
+                    "RAG+CoI": 6
+                }
+            },
+            "elapsed_seconds": 344
+        },
+        {
+            "question": "Why do methods return \"self\" by default in Smalltalk?",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 6
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 8,
+                    "RAG+CoI": 5
+                }
+            },
+            "elapsed_seconds": 344
+        },
+        {
+            "question": "How do we check in pharo if an element already exist in a set",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 6,
+                    "RAG+CoI": 9
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 8,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 5,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 210
+        },
+        {
+            "question": "How to implement a switch in Pharo Smalltalk",
+            "topic": "pharo",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 8,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 8,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 289
+        }
+    ],
+    "qualitative_feedback": "Some explanation are not understandable, more especially those that do not have a code example, I can improve them by giving explanation with a codes"
+}

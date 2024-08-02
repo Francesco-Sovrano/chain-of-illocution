@@ -1,0 +1,140 @@
+{
+    "username": "6697ddac774c90bf00708c02",
+    "How would you rate your knowledge of <b>Python</b>?": 4,
+    "How would you rate your knowledge of <b>Java</b>?": 5,
+    "evaluation_list": [
+        {
+            "question": "Does Java support default parameter values?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 7,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 6,
+                    "RAG": 8,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 8,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 390
+        },
+        {
+            "question": "Converting array to list in Java",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 6,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 5,
+                    "RAG": 7,
+                    "RAG+CoI": 7
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 7,
+                    "RAG+CoI": 7
+                }
+            },
+            "elapsed_seconds": 211
+        },
+        {
+            "question": "How to directly initialize a HashMap (in a literal way)?",
+            "topic": "java",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 10,
+                    "RAG+CoI": 8
+                },
+                "Relevance": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 133
+        },
+        {
+            "question": "How do I merge two dictionaries in a single expression in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 7
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 125
+        },
+        {
+            "question": "What does the \"yield\" keyword do in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 7,
+                    "RAG": 6,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 6,
+                    "RAG+CoI": 8
+                },
+                "Correctness": {
+                    "GenAI": 10,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 72
+        },
+        {
+            "question": "How to check if the string is empty in Python?",
+            "topic": "python",
+            "evaluation_dict": {
+                "Net Promoter Score": {
+                    "GenAI": 10,
+                    "RAG": 9,
+                    "RAG+CoI": 10
+                },
+                "Relevance": {
+                    "GenAI": 10,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                },
+                "Correctness": {
+                    "GenAI": 9,
+                    "RAG": 10,
+                    "RAG+CoI": 10
+                }
+            },
+            "elapsed_seconds": 53
+        }
+    ],
+    "qualitative_feedback": "i think that its enough knowledge ,i now understand things i didn't really know much about them now i understand  n got some knowledge i think they should do more of this kinder learning"
+}
