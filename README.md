@@ -1,14 +1,10 @@
-# Chain-of-Illocution Prompting Elicits Factuality in Retrieval-Augmented Programming Explanations
+# Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation
 
-Welcome to the replication package for the ICSE 2025 paper titled "Chain-of-Illocution Prompting Elicits Factuality in Retrieval-Augmented Programming Explanations".
+Welcome to the replication package for the AIED 2025 paper titled "Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation".
 
 ## Abstract
 
-Generative AI (GenAI) tools like ChatGPT are transforming information access for developers, potentially surpassing platforms like Stack Overflow. However, studies show up to 36% of ChatGPT's answers to Stack Overflow questions are inaccurate. Retrieval-Augmented Generation (RAG) can help by adding external knowledge to the AI's context window, but standard RAG does not go far at solving the problem.
-
-This paper focuses on improving the factual precision of RAG systems in programming explanations. We introduce a novel chain-of-illocution prompting strategy whose design is based on Achinstein's theory of explanations. Our method mitigates the non-factuality issue stemming from the opaque macro-planning phase in GenAI, where the system decides on the content for the generated text. By leveraging prompt engineering and transferring control over macro-planning to the information retrieval system in a theory-informed manner, our strategy enhances factual precision. 
-
-Empirical evaluation using the FActScore metric demonstrated significant improvements (p < 0.05), with our methods applied to state-of-the-art RAG systems (including OpenAI's, Mixtral, and LLama3) showing a statistically significant increase (+9.3%, in average) in factual precision across 120 Stack Overflow questions related to Python, Java, Pharo, and object-oriented design patterns. User studies involving over 100 software developers also confirmed that our prompting strategy does not negatively impact user satisfaction and is perceived as improving the relevance and correctness of the content. 
+Well-crafted curricula are key to effective learning, with textbooks serving as the backbone of modern education by providing stable, peer-reviewed knowledge. Yet, generative AI is rapidly transforming software education with personalized, on-demand responses. Even with Retrieval-Augmented Generative AI (RAG) directly incorporating textbook content, maintaining strict adherence to these sources remains challenging. We found that state-of-the-art RAG systems too often fail to maintain the integrity of textbook material, potentially compromising educational quality. To address this, we introduce a chain-of-illocution prompting strategy based on Achinstein’s theory of explanations to enhance RAG's adherence. Our method shifts macro-planning control to the retrieval system, ensuring AI-generated answers remain faithful to the textbook. Experiments with leading RAG models (GPT-4o, Llama3, Mixtral) show up to 63% increase in textbook adherence (p < 0.05) across 90 popular Stack Overflow questions on Python, Java, and Pharo. A user study with 200+ developers also confirms that our approach improves adherence without sacrificing output quality. 
 
 
 ## Repository Contents
@@ -22,15 +18,13 @@ This repository comprises various tools, scripts, and data essential for replica
    - Python package used by the experiments of RQ1 & RQ2.
 
 3. **stackoverflow_posts**:
-   - CSV files with the top-200 most viewed Stack Overflow posts with tags: `design-patterns`, `java`, `pharo`, `python`.
+   - CSV files with the top-200 most viewed Stack Overflow posts with tags: `java`, `pharo`, `python`.
 
 4. **textbooks**:
    - Folders containing the textbooks:
 		- [Introduction to Programming Using Java](textbooks/java/[2022]Introduction to Programming Using Java.pdf)
 		- [Think Python: How to Think Like a Computer Scientist](textbooks/python/[2015]Think Python - How to Think Like a Computer Scientist.pdf)
 		- [Pharo By Example 5](textbooks/pharo/[2018]Pharo By Example 5.pdf)
-		- [Dive Into DESIGN PATTERNS](https://refactoring.guru/design-patterns/book)
-	- Since the last textbooks has not creative commons license, before running the experiment you have to download it first from [here](https://refactoring.guru/design-patterns/book). Then, rename the PDF as `[2019]Dive Into DESIGN PATTERNS.pdf` and move it inside [textbooks/design_patterns](textbooks/design_patterns).
 
 5. **user_study**:
    - Scripts for running the user interface of the study.
@@ -101,11 +95,8 @@ The experiment will be automatically run on all the textbooks:
 - [Introduction to Programming Using Java](textbooks/java/[2022]Introduction to Programming Using Java.pdf)
 - [Think Python: How to Think Like a Computer Scientist](textbooks/python/[2015]Think Python - How to Think Like a Computer Scientist.pdf)
 - [Pharo By Example 5](textbooks/pharo/[2018]Pharo By Example 5.pdf)
-- [Dive Into DESIGN PATTERNS](https://refactoring.guru/design-patterns/book)
 
-Since the last textbooks has not creative commons license, before running the experiment you have to download it first from [here](https://refactoring.guru/design-patterns/book). Then, rename the PDF as `[2019]Dive Into DESIGN PATTERNS.pdf` and move it inside [textbooks/design_patterns](textbooks/design_patterns).
-
-Since we [cached](explanation_analysis/cache) all the outputs of all the six considered LLMs, running the script won't take much time, with the exception of the `Dive Into DESIGN PATTERNS` textbook for which we couldn't upload the caches.
+Since we [cached](explanation_analysis/cache) all the outputs of all the six considered LLMs, running the script won't take much time.
 
 Upon completion of the script, you will find the assessment results in the directory [explanation_analysis/results](explanation_analysis/results). This directory contains CSV and PDF files detailing the outcomes of the assessments.
 
@@ -132,5 +123,5 @@ The logic of the user interface instead can be found inside the directory [user_
 
 By default the user interface show the explanations generated by GPT-4o only. Edit the file [user_study/static/js/app.js](user_study/static/js/app.js) to make the user interface show the explanations generated by GPT-3.5-turbo instead. Go to line 34 and change the string `combined_data_gpt-4o_question_5_0.7.csv` with `combined_data_gpt-3.5-turbo_question_5_0.7.csv`.
 
-The script [user_study/analyze_results.py](user_study/analyze_results.py) can be ran to analyze the results in [user_study/results](user_study/results) and generate the boxplots which can be found inside: [user_study/user_study_results_gpt-3.5-turbo.pdf](user_study/user_study_results_gpt-3.5-turbo.pdf) and [user_study/user_study_results_gpt-4o.pdf](user_study/user_study_results_gpt-4o.pdf)
+The script [user_study/analyze_results.py](user_study/analyze_results.py) can be ran to analyze the results in [user_study/results](user_study/results) and generate the box plots which can be found inside: [user_study/user_study_results_gpt-3.5-turbo.pdf](user_study/user_study_results_gpt-3.5-turbo.pdf) and [user_study/user_study_results_gpt-4o.pdf](user_study/user_study_results_gpt-4o.pdf)
 
