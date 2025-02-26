@@ -52,10 +52,10 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 			scores_dict = {v: prepare_data_for_model(llm_data, v, score) for v in model_name_dict.values()}
 			comparison_df = pd.DataFrame({k: v['Score'].values for k, v in scores_dict.items()}, index=scores_dict[next(iter(model_name_dict.values()))]['QTitle'])
 			
-			sns.boxplot(data=comparison_df, palette=[palette[1], palette[2]])
+			sns.boxplot(data=comparison_df, palette=palette)
 
 			if llm_index==0:
-				plt.title(score.replace('fact_score_fuzzy','fuzzy_fact_score').replace('fact_score','FActScore').replace('_', ' ').replace('dox ','DoX ') + (f' (t={fact_score_similarity_threshold:.2f})' if score == 'fact_score' or score == 'supporting_facts' else ''))
+				plt.title(score.replace('fact_score_fuzzy','Semantic Similarity').replace('fact_score','Adherence Precision').replace('supporting_facts','# Adherent Clauses').replace('explanation_words','# Explanation Words').replace('_', ' ').replace('dox ','DoX '))
 			
 			if llm_index==num_llms-1:
 				# Rotate x-labels for better visibility
@@ -92,6 +92,8 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 				# 	is_normally_distributed = False
 
 			for i,model in enumerate(filter(lambda x: x!=main_exp_label, model_name_dict.values())):
+				if model == 'GenAI':
+					continue
 				x = comparison_df[main_exp_label]
 				y = comparison_df[model]
 
@@ -159,7 +161,7 @@ def make_boxplot(data, model_name_dict, scores_to_consider_for_boxplot, fact_sco
 		
 		ax = sns.boxplot(data=comparison_df)
 		# plt.title(f'Summary statistics of {score.replace("_", " ")} for {main_exp_label} vs ChatGPT')
-		plt.ylabel(score.replace('fact_score_fuzzy','fuzzy_fact_score').replace('fact_score','FActScore').replace('_', ' ').replace('dox ','DoX ') + (f' (t={fact_score_similarity_threshold:.2f})' if score == 'fact_score' or score == 'supporting_facts' else ''))
+		plt.ylabel(score.replace('fact_score_fuzzy','Semantic Similarity').replace('fact_score','Source Adherence').replace('supporting_facts','# Adherent Clauses').replace('_', ' ').replace('dox ','DoX ') + (f' (t={fact_score_similarity_threshold:.2f})' if score == 'fact_score' or score == 'supporting_facts' else ''))
 
 		# Rotate x-labels for better visibility
 		# ax.set_xticklabels(ax.get_xticklabels(), rotation=45)

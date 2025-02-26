@@ -3,14 +3,14 @@ import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import wilcoxon, kruskal, mannwhitneyu, shapiro
+from scipy.stats import wilcoxon, kruskal, mannwhitneyu, shapiro, ttest_rel
 import seaborn as sns
 import textwrap  # Import textwrap for wrapping text
 import sys
 
 plt.rcParams.update({'font.size': 14})  # You can adjust the size as needed
 
-min_experiment_duration = 9*60 # seconds
+min_experiment_duration = 5*60 # seconds
 max_ratio_of_all_ten = 1
 # min_seconds_per_question = 0
 
@@ -18,7 +18,7 @@ topic_list = [
     'java',
     'python',
     'pharo',
-    'design_patterns',
+    # 'design_patterns',
 ]
 
 strategy_list = [
@@ -89,7 +89,7 @@ def process_data(data):
     for entry in data:
         for metric in metrics:
             result_dict = {
-                m: entry['evaluation_dict'][metric][m] 
+                m: entry['evaluation_dict'][metric][m]
                 for m in strategy_list
             }
             result_dict['question'] = entry['question']
@@ -98,9 +98,13 @@ def process_data(data):
     df_results = {}
     for metric, entries in results.items():
         df = pd.DataFrame(entries)
-        df = df.groupby('question').mean()
-        df = df.reset_index() # Reset the index to make 'question' a column
+        df_count = df.groupby('question').size().reset_index(name='num_entries')
+        df_mean = df.groupby('question').mean().reset_index()
+        df = pd.merge(df_mean, df_count, on='question')
         df = df.sort_values('question') # Sort the DataFrame by the 'question' column
+        avg_entries_per_question = df['num_entries'].mean()
+        del df['num_entries']
+        print(f"Average number of entries per question for {metric}: {avg_entries_per_question}")
         # df['GenAI'] = df['GenAI'].apply(map_likert)
         # df['RAG'] = df['RAG'].apply(map_likert)
         # df['RAG+CoI'] = df['RAG+CoI'].apply(map_likert)
@@ -124,15 +128,17 @@ def statistical_tests(data):
             for col2 in strategy_list[i+1:]:
                 if col1 == col2:
                     continue
-                if df[col1].median() > df[col2].median():
-                    alternative = 'greater'
-                    symbol = '>'
-                elif df[col1].median() < df[col2].median():
-                    alternative = 'less'
-                    symbol = '<'
-                else:
-                    alternative = 'two-sided'
-                    symbol = '!='
+                # if df[col1].median() > df[col2].median():
+                #     alternative = 'greater'
+                #     symbol = '>'
+                # elif df[col1].median() < df[col2].median():
+                #     alternative = 'less'
+                #     symbol = '<'
+                # else:
+                #     alternative = 'two-sided'
+                #     symbol = '!='
+                alternative = 'less'
+                symbol = '<'
                 stat, p = wilcoxon(df[col1], df[col2], alternative=alternative)
                 test_results[metric][f'{col1} {symbol} {col2}'] = (p, stat, len(df[col1]), len(df[col2]))
                 
@@ -144,8 +150,8 @@ def plot_results(data, test_results, figure_path):
 
     # Load the default color palette
     palette = sns.color_palette()
-    if len(strategy_list) == 2:
-        palette = palette[1:]
+    # if len(strategy_list) == 2:
+    #     palette = palette[1:]
     
     for i, (metric, df) in enumerate(data.items()):
         df_melted = df.melt(id_vars=['question'], var_name='Strategy', value_name=metric)
@@ -153,7 +159,7 @@ def plot_results(data, test_results, figure_path):
         # ax.set_title(metric)  # Adjust title padding
         ax.set_xlabel('')
         # ax.set_ylabel(metric.replace('Net Promoter Score','Satisfaction').strip(), labelpad=0)
-        ax.set_title(metric.replace('Net Promoter Score','Satisfaction').strip()) #, y=1.06)  # Adjust the y value to move the title
+        ax.set_title(metric.replace('Net Promoter Score','Satisfaction').replace('Correctness','Perceived Correctness').strip()) #, y=1.06)  # Adjust the y value to move the title
         ax.set_ylabel('')
         # ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
 
@@ -212,12 +218,10 @@ def compare_models(data1, data2):
             # print(len(model2_data))
         
             # Perform Wilcoxon signed-rank test
-            try:
-                stat, p_value = wilcoxon(model1_data, model2_data, alternative='greater')
-                comparison_results[metric][column] = (stat, p_value)
-            except:
-                pass
-    
+            min_len = min(len(model1_data), len(model2_data))
+            stat, p_value = wilcoxon(model1_data[:min_len], model2_data[:min_len], alternative='greater')
+            comparison_results[metric][column] = (stat, p_value)
+            
     return comparison_results
 
 

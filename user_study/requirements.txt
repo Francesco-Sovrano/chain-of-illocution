@@ -3,4 +3,4 @@ tornado
 pandas
 matplotlib
 seaborn
-scipy
+scipy==1.10

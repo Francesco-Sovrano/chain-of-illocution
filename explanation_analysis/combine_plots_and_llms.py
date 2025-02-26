@@ -9,7 +9,7 @@ _, output_type, extra_questions_to_consider, fact_score_similarity_threshold = s
 fact_score_similarity_threshold = float(fact_score_similarity_threshold)
 
 topic_list = [
-	'design_patterns',
+	# 'design_patterns',
 	'java',
 	'pharo',
 	'python',
@@ -26,7 +26,7 @@ model_list = [
 ]
 
 model_name_dict = {
-	# f'norag_{output_type}': 'GenAI',
+	f'norag_{output_type}': 'GenAI',
 	f'yai_{0}_clause_{output_type}': 'RAG',
 	f'yai_{extra_questions_to_consider}_clause_{output_type}': 'RAG+CoI',
 }
@@ -79,5 +79,5 @@ merged_df.to_csv(output_file, index=False)
 # df = pd.read_csv(data_path)
 data = [row.to_dict() for _, row in merged_df.iterrows()]
 
-plots_path = os.path.join('results/',f'combined_plot_all_{output_type}_{extra_questions_to_consider}_{fact_score_similarity_threshold}.pdf')
+plots_path = os.path.join('results/',f'combined_plot_all_{output_type}_{extra_questions_to_consider}_{str(fact_score_similarity_threshold).replace(".","_")}.pdf')
 make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_score_similarity_threshold, plots_path, main_exp_label=model_name_dict[f'yai_{extra_questions_to_consider}_clause_{output_type}'])
