@@ -1,0 +1,10 @@
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/toor/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package punkt to /Users/toor/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/Users/toor/Documents/Software/GitHub/chain-of-illocution/explanation_analysis/ask_stackoverflow_questions_per_book.py", line 512, in <module>
+    textbook = TASK_TO_TEXTBOOK[task]
+KeyError: 'design_patterns'

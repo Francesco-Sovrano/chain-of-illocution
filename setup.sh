@@ -5,7 +5,7 @@ SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
 # Configure Eval server
 cd user_study
 echo 'Setting up the User Study server..'
-python3.9 -m venv .env
+python3.10 -m venv .env
 source .env/bin/activate
 pip install -U pip
 pip install -U setuptools wheel twine
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 cd ..
 
 cd explanation_analysis
-python3.9 -m venv .env
+python3.10 -m venv .env
 source .env/bin/activate
 pip install -U pip
 pip install -U setuptools wheel twine

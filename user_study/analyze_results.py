@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import wilcoxon, kruskal, mannwhitneyu, shapiro, ttest_rel
+from scipy import stats
 import seaborn as sns
 import textwrap  # Import textwrap for wrapping text
 import sys
@@ -120,7 +120,7 @@ def statistical_tests(data):
 		print(f"Testing for {metric}:")
 		# Testing normality for each group
 		for column in strategy_list:
-			stat, p_value = shapiro(df[column])
+			stat, p_value = stats.shapiro(df[column])
 			print(f"{column} - Shapiro Test p-value: {p_value:.4f}")
 
 	for metric, df in data.items():
@@ -139,7 +139,7 @@ def statistical_tests(data):
 				#     symbol = '!='
 				alternative = 'less'
 				symbol = '<'
-				stat, p = wilcoxon(df[col1], df[col2], zero_method='pratt', alternative=alternative)
+				stat, p = stats.wilcoxon(df[col1], df[col2], zero_method='pratt', alternative=alternative)
 				test_results[metric][f'{col1} {symbol} {col2}'] = (p, stat, len(df[col1]), len(df[col2]))
 				
 	return test_results
@@ -206,6 +206,43 @@ def plot_results(data, test_results, figure_path):
 	plt.savefig(figure_path)
 	plt.show()
 
+def cliffs_delta(x, y):
+	n = len(x)
+	m = len(y)
+	ranksum = sum([sum([1 for j in y if j < i]) - sum([1 for j in y if j > i]) for i in x])
+	return ranksum / (n * m)
+
+def calc_r(U, data1, data2):
+	"""Nonparametric r from Mann–Whitney U."""
+	n1, n2 = len(data1), len(data2)
+	mu_U = n1 * n2 / 2
+	sigma_U = np.sqrt(n1 * n2 * (n1 + n2 + 1) / 12)
+	Z = (U - mu_U) / sigma_U
+	return Z / np.sqrt(n1 + n2)
+
+def cohens_d(U, data1, data2, alternative='greater'):
+	U, _ = stats.mannwhitneyu(data1, data2, alternative=alternative)
+	r = calc_r(U, data1, data2)
+	return 2 * r / np.sqrt(1 - r**2)
+
+def bootstrap_ci(data1, data2, func, n_boot=5000, alpha=0.05):
+	"""
+	data1, data2 : arrays
+	func         : a function(data1, data2) -> scalar effect
+	n_boot       : number of bootstrap resamples
+	ci           : confidence level (e.g. 0.95)
+	"""
+	boots = []
+	n1, n2 = len(data1), len(data2)
+	for _ in range(n_boot):
+		bs1 = np.random.choice(data1,  size=n1, replace=True)
+		bs2 = np.random.choice(data2,  size=n2, replace=True)
+		boots.append(func(bs1, bs2))
+	# print(boots)
+	lower = np.percentile(boots, 100 * (alpha/2))
+	upper = np.percentile(boots, 100 * (1 - alpha/2))
+	return lower, upper
+
 # Additional function to perform the Wilcoxon test
 def compare_models(data1, data2):
 	comparison_results = {}
@@ -219,9 +256,16 @@ def compare_models(data1, data2):
 			# print(len(model1_data))
 			# print(len(model2_data))
 		
-			# Perform Wilcoxon signed-rank test
-			stat, p_value = mannwhitneyu(model1_data, model2_data, alternative='greater')
-			comparison_results[metric][column] = (stat, p_value)
+			# Perform Mann-Whitney U test
+			U, p_value = stats.mannwhitneyu(model1_data, model2_data, alternative='greater')
+
+			comparison_results[metric][column] = {
+				'U': U, 
+				'p-value': p_value, 
+				'cliff’s delta': cliffs_delta(model1_data, model2_data),
+				'cohens_d': cohens_d(U, model1_data, model2_data, alternative='greater'),
+				'CI': bootstrap_ci(model1_data, model2_data, lambda x,y: cohens_d(U, x, y, alternative='greater'))
+			}
 			
 	return comparison_results
 

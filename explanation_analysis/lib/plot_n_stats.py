@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy.stats import pearsonr, mannwhitneyu, wilcoxon, rankdata, shapiro, ttest_rel
+from scipy import stats
 import textwrap  # Import textwrap for wrapping text
 import numpy as np
 import json
@@ -15,11 +15,29 @@ def cliffs_delta(x, y):
 	ranksum = sum([sum([1 for j in y if j < i]) - sum([1 for j in y if j > i]) for i in x])
 	return ranksum / (n * m)
 
+def cohens_dz(z, x, y, zero_method='wilcox'):
+	if zero_method == 'wilcox':
+		n = len(x)              # total number of pairs, including zeros
+	else:
+		# Compute number of nonzero differences
+		diffs = x - y
+		n = np.count_nonzero(diffs)   # Pratt’s zeros are automatically excluded
+
+	# Compute dz
+	dz = z / np.sqrt(n)
+	return dz
+
+def confidence_intervals(zstatistic, x, y):
+	# Analytical CI for Cohen's dz
+	dz = cohens_dz(zstatistic, x, y)
+	n = len(x)
+	se_dz = np.sqrt(1/n + dz**2/(2*n))
+	zcrit = stats.norm.ppf(0.975)
+	return (dz - zcrit * se_dz, dz + zcrit * se_dz)
+
 # Calculate matched-pairs rank-biserial correlation
-def rank_biserial_correlation(T, n):
-	S = n * (n + 1) / 2  # Total rank sum for n observations
-	r = T / S  # Rank-biserial correlation
-	return r
+def rank_biserial_correlation(U, n1, n2):
+	return 1 - (2*U/(n1*n2))
 
 # Function to prepare DataFrame for a given model and score type
 def prepare_data_for_model(data, model_name, score_to_consider):
@@ -41,7 +59,7 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 	grouped_data = {llm: [row.to_dict() for _, row in group.iterrows()] for llm, group in pd.DataFrame(data).groupby('llm')}
 	
 	num_llms = len(grouped_data)
-	plt.figure(figsize=(3 * len(scores_to_consider_for_boxplot), 2 * num_llms))
+	plt.figure(figsize=(3 * len(scores_to_consider_for_boxplot), 2.3 * num_llms))
 
 	# Load the default color palette
 	palette = sns.color_palette()
@@ -82,14 +100,14 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 				continue
 			annotation_y_offset = 0.75  # Starting offset just above the subplot
 
-			# is_normally_distributed = True
-			for model in model_name_dict.values():
-				print(f"Testing for {score}:")
-				# Testing normality for each group
-				stat, p_value = shapiro(comparison_df[model])
-				print(f"{model} - Shapiro Test p-value: {p_value:.4f}")
-				# if p_value < 0.05:
-				# 	is_normally_distributed = False
+			# # is_normally_distributed = True
+			# for model in model_name_dict.values():
+			# 	print(f"Testing for {score}:")
+			# 	# Testing normality for each group
+			# 	stat, p_value = stats.shapiro(comparison_df[model])
+			# 	print(f"{model} - Shapiro Test p-value: {p_value:.4f}")
+			# 	# if p_value < 0.05:
+			# 	# 	is_normally_distributed = False
 
 			for i,model in enumerate(filter(lambda x: x!=main_exp_label, model_name_dict.values())):
 				if model == 'GenAI':
@@ -100,16 +118,20 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 				differences = np.array(x) - np.array(y)
 				abs_differences = np.abs(differences)
 
-				ranks = rankdata(abs_differences)
+				ranks = stats.rankdata(abs_differences)
 				pos_rank_sum = np.sum(ranks[differences > 0])
 				neg_rank_sum = np.sum(ranks[differences < 0])
 
 				t = min(pos_rank_sum, neg_rank_sum)
 
-				statistic, p_value = wilcoxon(x, y, alternative='greater') if score != 'fact_score_fuzzy' else ttest_rel(x, y, alternative='greater')
+				statistic, p_value = stats.wilcoxon(x, y, alternative='greater') #if score != 'fact_score_fuzzy' else stats.ttest_rel(x, y, alternative='greater')
+				zstatistic = abs(stats.norm.ppf(p_value/2))
+
 				effect_size = {
-					'rank_biserial_correlation': rank_biserial_correlation(statistic, len(x)),
+					'rank_biserial_correlation': rank_biserial_correlation(statistic, len(x), len(y)),
 					'cliffs_delta': cliffs_delta(x, y),
+					'cohens_dz': cohens_dz(zstatistic, x, y),
+					'confidence_intervals': confidence_intervals(zstatistic, x, y),
 				}
 
 				print(f"{main_exp_label} > {model} comparison for {score}:")
@@ -132,10 +154,15 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 
 				# Format the full annotation text
 				# annotation_text = f"{p_text}\nT={statistic:.0f}\nΔ={effect_size['cliffs_delta']:.3f}"
-				annotation_text = f"{p_text}\nΔ={effect_size['cliffs_delta']:.3f}"
+				ci_low, ci_high = effect_size['confidence_intervals']
+				annotation_text = f"{p_text}\nCI=[{ci_low:.2f}, {ci_high:.1f}]\ndz={effect_size['cohens_dz']:.2f}"
 				# annotation_text = f"{main_exp_label} vs. {model}: T={statistic:.0f}, p={p_value:.3f}, Δ={effect_size['cliffs_delta']:.3f}"
 				# Position text at the top of each subplot, incrementing vertically for each model
-				plt.text(0.5, annotation_y_offset, annotation_text, ha='center', va='bottom', size='small', transform=ax.transAxes)
+				plt.text(0.5, annotation_y_offset, annotation_text, ha='center', va='bottom', size='small', transform=ax.transAxes, bbox=dict(
+					facecolor='white',   # background color
+					alpha=0.75,           # transparency, 0.0 (invisible) to 1.0 (opaque)
+					edgecolor='none'     # no border; set to e.g. 'black' if you want an outline
+				))
 				annotation_y_offset += offset_increment  # Move up for the next line
 
 	plt.tight_layout()
@@ -144,7 +171,7 @@ def make_boxplots(data, model_name_dict, scores_to_consider_for_boxplot, fact_sc
 
 def make_boxplot(data, model_name_dict, scores_to_consider_for_boxplot, fact_score_similarity_threshold, plot_path, main_exp_label='RAG+CoR'):
 
-	plt.figure(figsize=(5 * len(scores_to_consider_for_boxplot), 5))
+	plt.figure(figsize=(10 * len(scores_to_consider_for_boxplot), 10))
 
 	for index, score in enumerate(scores_to_consider_for_boxplot):
 		# Create horizontal subplots
@@ -177,14 +204,14 @@ def make_boxplot(data, model_name_dict, scores_to_consider_for_boxplot, fact_sco
 		for i, median in enumerate(medians):
 			plt.text(i, median + offset_increment, f"{median:.3f}".rstrip('0').rstrip('.'), horizontalalignment='center', size='small', color='black', weight='semibold')
 
-		# is_normally_distributed = True
-		for model in model_name_dict.values():
-			print(f"Testing for {score}:")
-			# Testing normality for each group
-			stat, p_value = shapiro(comparison_df[model])
-			print(f"{model} - Shapiro Test p-value: {p_value:.4f}")
-			# if p_value < 0.05:
-			# 	is_normally_distributed = False
+		# # is_normally_distributed = True
+		# for model in model_name_dict.values():
+		# 	print(f"Testing for {score}:")
+		# 	# Testing normality for each group
+		# 	stat, p_value = stats.shapiro(comparison_df[model])
+		# 	print(f"{model} - Shapiro Test p-value: {p_value:.4f}")
+		# 	# if p_value < 0.05:
+		# 	# 	is_normally_distributed = False
 		
 		# Adjust bracket height
 		annotation_y_offset = 1.02  # Starting offset just above the subplot
@@ -195,16 +222,20 @@ def make_boxplot(data, model_name_dict, scores_to_consider_for_boxplot, fact_sco
 			differences = np.array(x) - np.array(y)
 			abs_differences = np.abs(differences)
 
-			ranks = rankdata(abs_differences)
+			ranks = stats.rankdata(abs_differences)
 			pos_rank_sum = np.sum(ranks[differences > 0])
 			neg_rank_sum = np.sum(ranks[differences < 0])
 
 			t = min(pos_rank_sum, neg_rank_sum)
 
-			statistic, p_value = wilcoxon(x, y, alternative='greater') if score != 'fact_score_fuzzy' else ttest_rel(x, y, alternative='greater')
+			statistic, p_value = stats.wilcoxon(x, y, alternative='greater') #if score != 'fact_score_fuzzy' else stats.ttest_rel(x, y, alternative='greater')
+			zstatistic = abs(stats.norm.ppf(p_value/2))
+
 			effect_size = {
-				'rank_biserial_correlation': rank_biserial_correlation(statistic, len(x)),
+				'rank_biserial_correlation': rank_biserial_correlation(statistic, len(x), len(y)),
 				'cliffs_delta': cliffs_delta(x, y),
+				'cohens_dz': cohens_dz(zstatistic, x, y),
+				'confidence_intervals': confidence_intervals(zstatistic, x, y),
 			}
 
 			print(f"{main_exp_label} > {model} comparison for {score}:")
@@ -226,10 +257,15 @@ def make_boxplot(data, model_name_dict, scores_to_consider_for_boxplot, fact_sco
 				p_text = f"$\\bf{{{p_text}}}$"  # Use LaTeX for bold
 
 			# Format the full annotation text
-			annotation_text = f"{main_exp_label} > {model}: T={statistic:.0f}, {p_text}, Δ={effect_size['cliffs_delta']:.3f}"
+			ci_low, ci_high = effect_size['confidence_intervals']
+			annotation_text = f"{main_exp_label} > {model}: T={statistic:.0f}, {p_text}, CI=[{ci_low:.2f}, {ci_high:.1f}], dz={effect_size['cohens_dz']:.2f}"
 			# annotation_text = f"{main_exp_label} vs. {model}: T={statistic:.0f}, p={p_value:.3f}, Δ={effect_size['cliffs_delta']:.3f}"
 			# Position text at the top of each subplot, incrementing vertically for each model
-			plt.text(0.5, annotation_y_offset, annotation_text, ha='center', va='bottom', size='small', transform=ax.transAxes)
+			plt.text(0.5, annotation_y_offset, annotation_text, ha='center', va='bottom', size='small', transform=ax.transAxes, bbox=dict(
+				facecolor='white',   # background color
+				alpha=0.75,           # transparency, 0.0 (invisible) to 1.0 (opaque)
+				edgecolor='none'     # no border; set to e.g. 'black' if you want an outline
+			))
 			annotation_y_offset += offset_increment  # Move up for the next line
 
 	plt.tight_layout()

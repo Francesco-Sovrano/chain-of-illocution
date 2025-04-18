@@ -36,7 +36,7 @@ This repository comprises various tools, scripts, and data essential for replica
 This repository is tested and recommended on:
 
 - OS: Linux (Debian 5.10.179 or newer) and macOS (14.4.1 Sonoma or newer)
-- Python version: 3.8 or newer
+- Python version: 3.9
 
 
 ## Environment Setup

@@ -1,0 +1,53 @@
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/toor/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package punkt to /Users/toor/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Extracting Knowledge Graph
+Extracting Knowledge Graph
+Graph size: 176998
+Using PickleCacheManager as the cache manager.
+Initialising KnowledgeGraphManager
+KnowledgeGraphManager initialised
+Grammatical Clauses: 33217
+Using PickleCacheManager as the cache manager.
+Initialising SentenceRetriever with has_immutable_db=True, fast_knn_search_threshold=inf
+Loading cache </Users/toor/Documents/Software/GitHub/chain-of-illocution/explanation_analysis/cache/python/adaptive_qa_embedder-clause.pkl.sentence_retriever.pkl>
+Done
+Using PickleCacheManager as the cache manager.
+Initialising SentenceRetriever with has_immutable_db=True, fast_knn_search_threshold=inf
+Using PickleCacheManager as the cache manager.
+Loading cache </Users/toor/Documents/Software/GitHub/chain-of-illocution/explanation_analysis/cache/python/adaptive_qa_embedder-clause.pkl.word_retriever.pkl>
+Building label_dict
+Building label_dict: done
+Building source_span_dict
+Building source_span_dict: done
+Building source_sentence_dict
+Building source_sentence_dict: done
+Building paragraph_dict
+Building paragraph_dict: done
+Building language_dict
+Building language_dict: done
+SentenceRetriever: setting 5954 documents
+Loading sentence_transformers model <sentence-transformers/all-mpnet-base-v2>; GPU support True
+SBERT model loaded
+SBERT: Modelling 5954 sentences in 1 batches. Max len: 63, Mean len: 11.322304333221364, Min len: 3
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:00<00:01,  2.72it/s]Batches:  33%|███▎      | 2/6 [00:00<00:01,  2.75it/s]Batches:  50%|█████     | 3/6 [00:01<00:01,  2.97it/s]Batches:  67%|██████▋   | 4/6 [00:01<00:00,  3.27it/s]Batches:  83%|████████▎ | 5/6 [00:01<00:00,  3.50it/s]Batches: 100%|██████████| 6/6 [00:01<00:00,  3.99it/s]Batches: 100%|██████████| 6/6 [00:01<00:00,  3.48it/s]
+SBERT: Finished modelling
+Using PickleCacheManager as the cache manager.
+Initialising SentenceRetriever with has_immutable_db=True, fast_knn_search_threshold=inf
+Loading cache </Users/toor/Documents/Software/GitHub/chain-of-illocution/explanation_analysis/cache/python/adaptive_qa_embedder-clause.pkl.sentence_retriever.pkl>
+SentenceRetriever: setting 1580 documents
+Traceback (most recent call last):
+  File "/Users/toor/Documents/Software/GitHub/chain-of-illocution/explanation_analysis/ask_stackoverflow_questions_per_book.py", line 732, in <module>
+    sentence_retriever.set_documents(list(zip(page_id_list, paragraph_list)), paragraph_list)
+  File "/Users/toor/Documents/Software/GitHub/chain-of-illocution/knowpy/knowpy/models/retrieval/sentence_retriever.py", line 73, in set_documents
+    documents_embeddings = self.sentence_embedding_fn(docs_to_embed, without_context=without_context, **args)
+  File "/Users/toor/Documents/Software/GitHub/chain-of-illocution/knowpy/knowpy/models/model_manager.py", line 380, in run_openai_embedding
+    chatgpt_client = self.get_openai_embedding_model()
+  File "/Users/toor/Documents/Software/GitHub/chain-of-illocution/knowpy/knowpy/models/model_manager.py", line 268, in get_openai_embedding_model
+    ModelManager.__openai_embedding_models[model_key] = OpenAI(api_key=self.__openai_embedding_model_options['api_key'])
+  File "/Users/toor/Documents/Software/GitHub/chain-of-illocution/explanation_analysis/.env/lib/python3.10/site-packages/openai/_client.py", line 116, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable

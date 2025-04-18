@@ -2,7 +2,7 @@
 
 # Configure Eval server
 echo 'Setting up Eval server..'
-python3.9 -m venv .env
+python3.10 -m venv .env
 source .env/bin/activate
 pip install -U pip
 pip install -U setuptools wheel twine

@@ -6,6 +6,8 @@ source .env/bin/activate
 FACT_SCORE_SIMILARITY_THRESHOLD=0.7
 EXTRA_QUESTIONS_TO_CONSIDER=5
 
+mkdir ./logs
+
 #################
 ### GPT-3.5
 python3 ask_stackoverflow_questions_per_book.py python question ${EXTRA_QUESTIONS_TO_CONSIDER} ${FACT_SCORE_SIMILARITY_THRESHOLD} gpt-3.5-turbo &> ./logs/python_question_${EXTRA_QUESTIONS_TO_CONSIDER}_${FACT_SCORE_SIMILARITY_THRESHOLD}_gpt-3.5-turbo.txt 
