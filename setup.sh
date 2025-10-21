@@ -31,5 +31,5 @@ python -m spacy download en_core_web_md
 # python3 -m spacy download fr_core_news_md
 # python3 -m spacy download it_core_news_md
 
-python -m nltk.downloader stopwords punkt averaged_perceptron_tagger framenet_v17 wordnet brown omw-1.4
+python -m nltk.downloader stopwords punkt averaged_perceptron_tagger averaged_perceptron_tagger_eng framenet_v17 wordnet brown omw-1.4
 cd ..

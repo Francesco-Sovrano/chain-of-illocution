@@ -1,6 +1,6 @@
 # Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation
 
-Welcome to the replication package for the AIED 2025 paper titled "Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation".
+Welcome to the replication package of the paper titled "Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation".
 
 ## Abstract
 
