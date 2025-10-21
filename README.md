@@ -21,7 +21,7 @@ This repository comprises various tools, scripts, and data essential for replica
    - CSV files with the top-200 most viewed Stack Overflow posts with tags: `java`, `pharo`, `python`.
 
 4. **textbooks**:
-   - **Folders containing the textbooks:**
+   - Folders containing the textbooks:
       - [Introduction to Programming Using Java](textbooks/java/%5B2022%5DIntroduction%20to%20Programming%20Using%20Java.pdf)
       - [Think Python: How to Think Like a Computer Scientist](textbooks/python/%5B2015%5DThink%20Python%20-%20How%20to%20Think%20Like%20a%20Computer%20Scientist.pdf)
       - [Pharo By Example 5](textbooks/pharo/%5B2018%5DPharo%20By%20Example%205.pdf)
