@@ -9,7 +9,7 @@ Well-crafted curricula are key to effective learning, with textbooks serving as 
 
 ## Repository Contents
 
-This repository comprises various tools, scripts, and data essential for replicating the findings of our ICSE 2025 paper. Here's a detailed breakdown:
+This repository comprises various tools, scripts, and data essential for replicating the findings of our paper. Here's a detailed breakdown:
 
 1. **explanation_analysis**
    - Scripts for running experiments the experiments of RQ1 & RQ2.
