@@ -22,9 +22,9 @@ This repository comprises various tools, scripts, and data essential for replica
 
 4. **textbooks**:
    - Folders containing the textbooks:
-		- [Introduction to Programming Using Java](textbooks/java/[2022]Introduction to Programming Using Java.pdf)
-		- [Think Python: How to Think Like a Computer Scientist](textbooks/python/[2015]Think Python - How to Think Like a Computer Scientist.pdf)
-		- [Pharo By Example 5](textbooks/pharo/[2018]Pharo By Example 5.pdf)
+		- [Introduction to Programming Using Java](textbooks/java/[2022]Introduction\ to\ Programming\ Using\ Java.pdf)
+		- [Think Python: How to Think Like a Computer Scientist](textbooks/python/[2015]Think Python\ -\ How\ to\ Think\ Like\ a\ Computer\ Scientist.pdf)
+		- [Pharo By Example 5](textbooks/pharo/[2018]Pharo\ By\ Example\ 5.pdf)
 
 5. **user_study**:
    - Scripts for running the user interface of the study.
