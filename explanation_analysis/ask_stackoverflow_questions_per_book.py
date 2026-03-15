@@ -690,7 +690,7 @@ def surface_explanation(question_answer_dict, prompt, prompt_tokens, experiment_
 			'processed_extra_questions_count': len(explanation_text_list)-1,
 			'extra_questions': list(extra_question_answer_dict.keys()) if extra_question_answer_dict else [],
 			'prompt_tokens': prompt_tokens,
-			'rag_context_tokens': count_tokens(yai_explanation)-prompt_tokens,
+			'rag_context_tokens': count_tokens(yai_explanation),
 			'output_tokens': count_tokens(frequency_dict[f'explanation_{experiment_key}']),
 		}
 		print(question, frequency_dict[f'explanation_{experiment_key}'])
