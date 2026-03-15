@@ -1,127 +1,224 @@
-# Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation
+# Illocutionary Explanation Planning for Source-Faithful Explanations in Retrieval-Augmented Language Models
 
-Welcome to the replication package of the paper titled "Chain-of-Illocution Prompting Elicits Textbook Adherence in Retrieval-Augmented Generation".
+This replication package accompanies the paper **"Illocutionary Explanation Planning for Source-Faithful Explanations in Retrieval-Augmented Language Models"** by **Francesco Sovrano** and **Alberto Bacchelli**.
 
-## Abstract
+The paper studies **source-faithful natural-language explanations** in retrieval-augmented generation (RAG) for programming education. Using **90 Stack Overflow questions** grounded in **three programming textbooks** (Java, Python, and Pharo), it benchmarks six LLMs, measures textbook adherence with **FActScore** and related metrics, and evaluates a retrieval-time query-expansion strategy called **chain-of-illocution prompting (CoI)**. Across models, CoI improves source adherence substantially while preserving user-facing quality in a controlled user study.
 
-Well-crafted curricula are key to effective learning, with textbooks serving as the backbone of modern education by providing stable, peer-reviewed knowledge. Yet, generative AI is rapidly transforming software education with personalized, on-demand responses. Even with Retrieval-Augmented Generative AI (RAG) directly incorporating textbook content, maintaining strict adherence to these sources remains challenging. We found that state-of-the-art RAG systems too often fail to maintain the integrity of textbook material, potentially compromising educational quality. To address this, we introduce a chain-of-illocution prompting strategy based on Achinstein’s theory of explanations to enhance RAG's adherence. Our method shifts macro-planning control to the retrieval system, ensuring AI-generated answers remain faithful to the textbook. Experiments with leading RAG models (GPT-4o, Llama3, Mixtral) show up to 63% increase in textbook adherence (p < 0.05) across 90 popular Stack Overflow questions on Python, Java, and Pharo. A user study with 200+ developers also confirms that our approach improves adherence without sacrificing output quality. 
+## What is in this package
 
+This package contains the code, data, and study material used to reproduce the three research questions in the paper.
 
-## Repository Contents
+### RQ1 — Source-faithfulness benchmark
+The package includes the scripts used to evaluate how closely RAG-generated explanations adhere to the reference textbooks, as well as the corresponding non-RAG baselines.
 
-This repository comprises various tools, scripts, and data essential for replicating the findings of our paper. Here's a detailed breakdown:
+### RQ2 — Chain-of-illocution prompting
+The package includes the code used to build the implicit explanatory-question scaffold and to compare standard RAG against **RAG+CoI**.
 
-1. **explanation_analysis**
-   - Scripts for running experiments the experiments of RQ1 & RQ2.
+### RQ3 — User study
+The package includes the web interface used for the user study, the analysis script, and the generated PDF summaries for the GPT-3.5-turbo and GPT-4o study runs.
 
-2. **knowpy**:
-   - Python package used by the experiments of RQ1 & RQ2.
+## Paper at a glance
 
-3. **stackoverflow_posts**:
-   - CSV files with the top-200 most viewed Stack Overflow posts with tags: `java`, `pharo`, `python`.
+The paper makes three main claims:
 
-4. **textbooks**:
-   - Folders containing the textbooks:
-      - [Introduction to Programming Using Java](textbooks/java/%5B2022%5DIntroduction%20to%20Programming%20Using%20Java.pdf)
-      - [Think Python: How to Think Like a Computer Scientist](textbooks/python/%5B2015%5DThink%20Python%20-%20How%20to%20Think%20Like%20a%20Computer%20Scientist.pdf)
-      - [Pharo By Example 5](textbooks/pharo/%5B2018%5DPharo%20By%20Example%205.pdf)
+1. **Baseline source adherence is low.** Non-RAG models have a median source adherence of 0%, and standard RAG systems still show only modest textbook adherence.
+2. **Illocutionary planning helps.** CoI retrieves evidence not only for the explicit question, but also for implicit explanatory questions, improving source faithfulness.
+3. **User experience is preserved.** The user study found no statistically significant decrease in satisfaction, relevance, or perceived correctness for RAG+CoI compared with standard RAG.
 
-5. **user_study**:
-   - Scripts for running the user interface of the study.
-   - Results of the user studies, including detailed PDF reports (`user_study_results_gpt-3.5-turbo.pdf`, `user_study_results_gpt-4o.pdf`).
+## Repository structure
 
+- `README.md`  
+  This file.
 
-## System Specifications
+- `setup.sh`  
+  Top-level setup script that creates the virtual environments used by the experiment and user-study components.
 
-This repository is tested and recommended on:
+- `explanation_analysis/`  
+  Scripts and utilities for reproducing the RQ1/RQ2 experiments.
+  - `ask_stackoverflow_questions_per_book.py`: main experiment driver.
+  - `combine_plots.py`, `combine_plots_and_llms.py`: utilities to aggregate outputs and generate plots.
+  - `config.py`: experiment configuration.
+  - `lib/`: helper modules for chunking, prompting, linguistic processing, and plotting.
 
-- OS: Linux (Debian 5.10.179 or newer) and macOS (14.4.1 Sonoma or newer)
-- Python version: 3.9
+- `knowpy/`  
+  Local Python package used by the experiment pipeline for knowledge extraction, retrieval, and supporting utilities.
 
+- `stackoverflow_posts/`  
+  Source datasets containing the top Stack Overflow questions used in the study.
+  - `java.csv`
+  - `python.csv`
+  - `pharo.csv`
 
-## Environment Setup
+- `textbooks/`  
+  Source textbooks used as the authoritative evidence base.
+  - `textbooks/java/[2022]Introduction to Programming Using Java.pdf`
+  - `textbooks/python/[2015]Think Python - How to Think Like a Computer Scientist.pdf`
+  - `textbooks/pharo/[2018]Pharo By Example 5.pdf`
 
-In order to run the automated assessments, you need to install a proper virtual environment, running the following script:
+- `user_study/`  
+  Material for reproducing or inspecting the user-study component.
+  - `server.py`: local web server for the study interface.
+  - `analyze_results.py`: analysis and plotting script.
+  - `static/`: HTML/CSS/JS front-end and bundled CSV files used by the interface.
+  - `results/`: destination directory for collected user-study responses.
+  - `user_study_results_gpt-3.5-turbo.pdf`
+  - `user_study_results_gpt-4o.pdf`
+
+## System requirements
+
+The package was prepared for **Linux** and **macOS** environments.
+
+Recommended baseline:
+
+- Python **3.10**
+- A POSIX shell environment
+- Enough disk space and RAM for textbook processing, embedding, and local-model execution
+
+## External dependencies and services
+
+Reproducing the full set of experiments requires access to:
+
+- an **OpenAI API key**, used for embeddings and for the OpenAI-hosted models;
+- a local **Ollama** installation if you want to reproduce the non-OpenAI model runs (`mistral`, `mixtral`, `llama3`, `llama3:70b`).
+
+The setup scripts install Python dependencies, download the required spaCy model, and download the NLTK resources used by the pipeline.
+
+## Setup
+
+From the repository root, run:
 
 ```bash
 ./setup.sh
 ```
 
-## Installation of OpenAI Keys
+This creates separate virtual environments for:
 
-To use this package, you must set up two environment variables: `OPENAI_ORGANIZATION` and `OPENAI_API_KEY`. These variables represent your OpenAI organization identifier and your API key respectively.
+- `explanation_analysis/.env`
+- `user_study/.env`
 
-On UNIX-like Operating Systems (Linux, MacOS):
-1. Open your terminal.
-2. To set the `OPENAI_ORGANIZATION` variable, run:
-   ```bash
-   export OPENAI_ORGANIZATION='your_organization_id'
-   ```
-3. To set the `OPENAI_API_KEY` variable, run:
-   ```bash
-   export OPENAI_API_KEY='your_api_key'
-   ```
-4. These commands will set the environment variables for your current session. If you want to make them permanent, you can add the above lines to your shell profile (`~/.bashrc`, `~/.bash_profile`, `~/.zshrc`, etc.)
+## Configure credentials
 
-To ensure you've set up the environment variables correctly:
+Before running the experiment pipeline, export your OpenAI API key in your shell session:
 
-1. In your terminal or command prompt, run:
-   ```bash
-   echo $OPENAI_ORGANIZATION
-   ```
-   This should display your organization ID.
-   
-2. Similarly, verify the API key:
-   ```bash
-   echo $OPENAI_API_KEY
-   ```
+```bash
+export OPENAI_API_KEY="<your_api_key>"
+```
 
-Ensure that both values match what you've set.
+If you plan to reproduce the local-model runs, make sure your Ollama server is running and the required models are available locally.
 
+## Reproducing RQ1 and RQ2
 
-## RQ1 & RQ2: Run the Experiments
-
-After setting up the environment, you can run the experiments of RQ1 and RQ2 using:
+The most direct entry point is:
 
 ```bash
 cd explanation_analysis
-./run_experiments.sh
-cd ..
+source .env/bin/activate
+python ask_stackoverflow_questions_per_book.py <book> question 5 0.7 <model>
 ```
 
-In our study, we evaluated six state-of-the-art, RAG-enhanced LLMs: GPT-3.5-turbo, GPT-4o, LLama3 8B and 70B, Mistral, and Mixtral 8x7B. 
+where:
 
-The experiment will be automatically run on all the textbooks:
-- [Introduction to Programming Using Java](textbooks/java/[2022]Introduction to Programming Using Java.pdf)
-- [Think Python: How to Think Like a Computer Scientist](textbooks/python/[2015]Think Python - How to Think Like a Computer Scientist.pdf)
-- [Pharo By Example 5](textbooks/pharo/[2018]Pharo By Example 5.pdf)
+- `<book>` is one of `java`, `python`, or `pharo`
+- `<model>` is one of:
+  - `gpt-3.5-turbo`
+  - `gpt-4o`
+  - `llama3:instruct`
+  - `llama3:70b-instruct`
+  - `mistral:instruct`
+  - `mixtral:instruct`
 
-Since we [cached](explanation_analysis/cache) all the outputs of all the six considered LLMs, running the script won't take much time.
+Example:
 
-Upon completion of the script, you will find the assessment results in the directory [explanation_analysis/results](explanation_analysis/results). This directory contains CSV and PDF files detailing the outcomes of the assessments.
+```bash
+cd explanation_analysis
+source .env/bin/activate
+python ask_stackoverflow_questions_per_book.py java question 5 0.7 gpt-4o
+```
 
-**Note:** To increase script verbosity and manage log output, please remove the comments from lines 23 to 29 in the file located at [explanation_analysis/ask_stackoverflow_questions_per_book.py](explanation_analysis/ask_stackoverflow_questions_per_book.py).
+The two key fixed parameters used in the paper are:
 
+- `5` implicit explanatory questions for CoI
+- `0.7` as the source-adherence similarity threshold
 
-## RQ3: User Study
+After individual runs, plots can be generated with:
 
-After setting up the environment, you can run the user interface of the study we conducted to answer RQ3:
+```bash
+python combine_plots.py question 5 0.7 gpt-4o
+python combine_plots_and_llms.py question 5 0.7
+```
+
+A convenience batch script is also included at `explanation_analysis/run_experiments.sh`. For transparent reproduction, the per-book command above is the clearest starting point.
+
+### Output locations
+
+During execution, the experiment pipeline creates cache, log, and result files inside `explanation_analysis/`.
+
+In particular, generated summaries and plots are written under the corresponding experiment output directories created by the scripts.
+
+## Reproducing RQ3 (user study)
+
+To launch the user-study interface locally:
 
 ```bash
 cd user_study
-. .env/bin/activate
-python server.py [port] [model]
-cd ..
+source .env/bin/activate
+python server.py <port> <model>
 ```
-The user interface will then be accessible with a browser on `localhost:[port]`.
 
-Replace `[port]` with the port number (e.g., `8010`) and `[model]` with either `gpt-4o` or `gpt-3.5-turbo`.
+For example:
 
-The data collected from the users can be found inside the directory [user_study/results](user_study/results).
+```bash
+cd user_study
+source .env/bin/activate
+python server.py 8010 gpt-4o
+```
 
-The logic of the user interface instead can be found inside the directory [user_study/static](user_study/static).
+Then open `http://localhost:<port>` in your browser.
 
-By default the user interface show the explanations generated by GPT-4o only. Edit the file [user_study/static/js/app.js](user_study/static/js/app.js) to make the user interface show the explanations generated by GPT-3.5-turbo instead. Go to line 34 and change the string `combined_data_gpt-4o_question_5_0.7.csv` with `combined_data_gpt-3.5-turbo_question_5_0.7.csv`.
+Supported model arguments for the interface are:
 
-The script [user_study/analyze_results.py](user_study/analyze_results.py) can be ran to analyze the results in [user_study/results](user_study/results) and generate the box plots which can be found inside: [user_study/user_study_results_gpt-3.5-turbo.pdf](user_study/user_study_results_gpt-3.5-turbo.pdf) and [user_study/user_study_results_gpt-4o.pdf](user_study/user_study_results_gpt-4o.pdf)
+- `gpt-4o`
+- `gpt-3.5-turbo`
 
+Collected study responses are written to `user_study/results/`.
+
+To analyze collected responses and regenerate the study plots:
+
+```bash
+cd user_study
+source .env/bin/activate
+python analyze_results.py
+```
+
+The package also includes the generated report PDFs:
+
+- `user_study/user_study_results_gpt-3.5-turbo.pdf`
+- `user_study/user_study_results_gpt-4o.pdf`
+
+## Notes on reproducibility
+
+- The package contains the textbooks and Stack Overflow source data used in the study.
+- The experiment code builds its own caches and derived artifacts when executed.
+- Full reproduction requires the same family of models used in the paper and corresponding access to OpenAI and/or local Ollama models.
+- Because LLM outputs are inherently non-deterministic, exact generations may vary, even though the paper uses constrained decoding settings.
+
+## Citation
+
+If you use this replication package, please cite the paper as:
+
+**Sovrano, F., & Bacchelli, A. (2026). _Illocutionary Explanation Planning for Source-Faithful Explanations in Retrieval-Augmented Language Models_. In _Proceedings of the 4th World Conference on eXplainable Artificial Intelligence (xAI 2026)_. Springer, Communications in Computer and Information Science (CCIS).**
+
+BibTeX:
+
+```bibtex
+@inproceedings{sovrano2026illocutionary,
+  author    = {Francesco Sovrano and Alberto Bacchelli},
+  title     = {Illocutionary Explanation Planning for Source-Faithful Explanations in Retrieval-Augmented Language Models},
+  booktitle = {Proceedings of the 4th World Conference on eXplainable Artificial Intelligence (xAI 2026)},
+  series    = {Communications in Computer and Information Science},
+  publisher = {Springer},
+  year      = {2026}
+}
+```
+
+Conference and proceedings information for xAI 2026 is available on the official conference website: <https://xaiworldconference.com/2026/>.
